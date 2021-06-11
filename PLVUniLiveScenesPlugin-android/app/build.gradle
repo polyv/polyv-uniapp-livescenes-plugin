@@ -1,0 +1,128 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "uni.UNIDCD60AF"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion //建议此属性值设为21 io.dcloud.PandoraEntry 作为apk入口时   必须设置 targetSDKVersion>=21 沉浸式才生效
+
+        versionCode 10
+        versionName "0.1.0"
+        multiDexEnabled true
+        ndk {
+            abiFilters 'x86','armeabi-v7a'
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            android.applicationVariants.all {
+                variant ->
+                    variant.outputs.all {
+                        outputFileName = "android_debug.apk"
+                    }
+            }
+        }
+    }
+    //使用uniapp时，需复制下面代码
+    /*代码开始*/
+    aaptOptions {
+        additionalParameters '--auto-add-overlay'
+        //noCompress 'foo', 'bar'
+        ignoreAssetsPattern "!.svn:!.git:.*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~"
+    }
+    /*代码结束*/
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
+
+    implementation "com.android.support:support-v4:28.0.0"
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.android.support:design:28.0.0'
+
+    /*uniapp所需库-----------------------开始*/
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.facebook.fresco:fresco:1.13.0'
+    implementation "com.facebook.fresco:animated-gif:1.13.0"
+    /*uniapp所需库-----------------------结束*/
+    // 基座需要，必须添加
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.alibaba:fastjson:1.1.46.android'
+
+
+    // 添加uni-app插件
+    implementation project(path: ':uniplugin_livescenes')
+
+    //使用模块下的依赖包，不应当直接在模块中使用，否则会把jar等依赖包打到aar里面，增加用户处理依赖冲突难度
+    implementation fileTree(dir: '../uniplugin_livescenes/libs', include: ['*.jar','*.aar'])
+
+    //同时与videoPlayer使用时会冲突
+    api ('com.github.ctiao:DanmakuFlameMaster:0.9.25')
+
+
+    //TODO 1、 多场景中用到的依赖，当场景增加时，需要确认是否需要更新
+    //demo 层
+//    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    api ("com.github.bumptech.glide:okhttp3-integration:4.10.0"){exclude group:'com.github.bumptech.glide',module:'glide'}
+
+
+    //下拉刷新&上拉加载更多控件
+    implementation 'me.dkzwm.widget.srl:core:1.6.6.4'
+    implementation 'me.dkzwm.widget.srl:ext-util:1.6.6.4'
+    implementation 'me.dkzwm.widget.srl:ext-material:1.6.6.4'
+    implementation 'me.dkzwm.widget.srl:ext-horizontal:1.6.6.4'
+    implementation 'me.dkzwm.widget.srl:ext-classics:1.6.6.4'
+    implementation 'me.dkzwm.widget.srl:ext-two-level:1.6.6.4'
+
+    //sdk层
+    implementation ('com.android.support:appcompat-v7:27.1.1')
+    implementation ('com.squareup.retrofit2:retrofit:2.4.0')
+    implementation ('com.squareup.retrofit2:converter-gson:2.4.0')
+    implementation ('com.squareup.retrofit2:adapter-rxjava2:2.4.0')
+    implementation ('com.squareup.okhttp3:logging-interceptor:4.5.0')
+    implementation ('io.reactivex.rxjava2:rxandroid:2.0.2')
+    implementation ('com.jakewharton.rxrelay2:rxrelay:2.0.0')
+    implementation ('com.google.code.findbugs:jsr305:2.0.1')
+    implementation ('com.google.code.gson:gson:2.8.5')
+    implementation ('com.github.lzyzsd:jsbridge:1.0.4')
+    implementation ('com.github.ctiao:DanmakuFlameMaster:0.9.25')
+    implementation ('com.aliyun.ams:alicloud-android-httpdns:2.0.1')
+    implementation ('com.aliyun.dpa:oss-android-sdk:2.9.3')
+    implementation ('com.tencent.bugly:crashreport:2.6.6.1')
+    implementation ('de.hdodenhof:circleimageview:2.2.0')
+    implementation ('io.socket:socket.io-client:1.0.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+
+    //LinkMic
+    implementation 'io.agora.rtc:full-sdk:2.9.0.107'
+    implementation 'cn.ucloud:ucloudrtclib:1.9.6'
+    implementation 'com.tencent.liteav:LiteAVSDK_TRTC:8.3.9893'
+
+}

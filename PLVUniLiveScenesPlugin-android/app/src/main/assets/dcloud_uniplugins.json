@@ -1,0 +1,19 @@
+{
+  "nativePlugins": [
+    {
+      "hooksClass": "com.polyv.unipluginlivescenes.PolyvAppProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "PLV-LiveScenesPlugin-ConfigModule",
+          "class": "com.polyv.unipluginlivescenes.PolyvConfigModule"
+        },
+        {
+          "type": "module",
+          "name": "PLV-LiveScenesPlugin-PlayModule",
+          "class": "com.polyv.unipluginlivescenes.PolyvLiveScenesModule"
+        }
+      ]
+    }
+  ]
+}
