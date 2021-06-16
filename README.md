@@ -11,7 +11,7 @@
 
 ## uni-app
 
-[**插件集成文档**](PLVUniAppLiveScenesPluginDemo/nativeplugins/PLV-LiveScenesPlugin/README.md)
+[**插件集成文档**](PLVUniAppLiveScenesPluginDemo/README.md)
 
 ## iOS
 
