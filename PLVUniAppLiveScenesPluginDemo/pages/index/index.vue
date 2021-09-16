@@ -107,13 +107,13 @@
 				playType: 0  ,//播放类型 0直播，1回放
 				isVideoList: 0, //回放中是否进入回放列表0回放视频 1回放列表
 				liveInfo: {
-					channelId: "2239947",
+					channelId: "",
 					userId: playConfig.userId,
 					appId: playConfig.appId,
 					appSecret: playConfig.appSecret,
 				},
 				playbackInfo: {
-					channelId: "2239947",
+					channelId: "",
 					userId: playConfig.userId,
 					appId: playConfig.appId,
 					appSecret: playConfig.appSecret,
@@ -128,7 +128,10 @@
 			}
 		},
 		onLoad() {
+			//配置观众信息
 			this.setViewerInfo();
+			//配置跑马灯信息
+			this.setMarqueeConfig();
 		},
 		methods: {
 			setViewerInfo() {
@@ -139,6 +142,17 @@
 				}, (result) => {
 					uni.showToast({
 						title: result.isSuccess ? "setViewerInfo succeed" : result.errMsg,
+						icon: "none"
+					})
+				})
+			},
+			//配置跑马灯信息
+			setMarqueeConfig() {
+				configModule.setMarqueeConfig({
+					code: "",
+				}, (result) => {
+					uni.showToast({
+						title: result.isSuccess ? "setMarqueeConfig succeed" : result.errMsg,
 						icon: "none"
 					})
 				})

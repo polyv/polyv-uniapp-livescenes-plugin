@@ -42,6 +42,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 直播间用户
 @property (nonatomic, strong) PLVRoomViewUser *viewUser;
+/// 自定义跑马灯Code
+@property (nonatomic, copy) NSString *marqueeCode;
 
 /// 单例方法
 + (instancetype)sharedSDK;

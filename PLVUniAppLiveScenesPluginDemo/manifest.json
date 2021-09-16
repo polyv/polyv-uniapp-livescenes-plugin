@@ -2,7 +2,7 @@
     "name" : "多场景Uni版",
     "appid" : "",
     "description" : "多场景Uni插件示例",
-    "versionName" : "0.0.3",
+    "versionName" : "0.0.5",
     "versionCode" : 1,
     "transformPx" : false,
     /* 5+App特有相关 */
@@ -20,6 +20,12 @@
         "modules" : {},
         /* 应用发布信息 */
         "distribute" : {
+            "orientation" : [
+                "portrait-primary",
+                "landscape-primary",
+                "portrait-secondary",
+                "landscape-secondary"
+            ],
             /* android打包配置 */
             "android" : {
                 "permissions" : [

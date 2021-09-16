@@ -6,7 +6,7 @@
 //
 
 #import "PLVLiveScenesConfigModule.h"
-#import <PLVLiveScenesSDK/PLVLiveVideoConfig.h>
+#import <PLVLiveScenesSDK/PLVLiveScenesSDK.h>
 #import "PLVLiveScenesUtils.h"
 #import "PLVLiveSDKConfig.h"
 
@@ -75,6 +75,23 @@ WX_EXPORT_METHOD(@selector(setViewerInfo:callback:))
                                     viewerType:0];
     [self callbackResultOnce:callback isSucceed:YES errMsg:@""];
 }
+
+/**
+ 配置跑马灯Code
+ */
+WX_EXPORT_METHOD(@selector(setMarqueeConfig:callback:))
+
+-(void)setMarqueeConfig:(NSDictionary*)options
+               callback:(WXModuleKeepAliveCallback)callback {
+    NSString *marqueeCode = PLV_SafeStringForDictKey(options, @"code");
+    if (!PLV_SafeStringForValue(marqueeCode)) {
+        [self callbackResultOnce:callback isSucceed:NO errMsg:@"跑马灯参数异常"];
+        return;
+    }
+    [PLVLiveSDKConfig sharedSDK].marqueeCode = marqueeCode;
+    [self callbackResultOnce:callback isSucceed:YES errMsg:@"跑马灯参数配置成功"];
+}
+
 
 -(void)callbackResultOnce:(WXModuleKeepAliveCallback)callback
                 isSucceed:(BOOL)isSucceed

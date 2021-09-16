@@ -6,14 +6,13 @@
 //
 
 #import "PLVLiveScenesPlayModule.h"
-#import <PolyvFoundationSDK/PLVProgressHUD.h>
+#import <PLVFoundationSDK/PLVProgressHUD.h>
 #import "PLVRoomLoginClient.h"
 #import "PLVRoomDataManager.h"
 
 #import "PLVLiveSDKConfig.h"
 #import "PLVLCCloudClassViewController.h"
 #import "PLVECWatchRoomViewController.h"
-#import "PLVBugReporter.h"
 #import "PLVLiveScenesUtils.h"
 
 @implementation PLVLiveScenesPlayModule
@@ -45,10 +44,10 @@ WX_EXPORT_METHOD(@selector(loginLiveRoom:options:callback:))
                                            appSecret:videoConfig.appSecret
                                             roomUser:^(PLVRoomUser * _Nonnull roomUser) {
         //      可在此处配置自定义的登陆用户ID、昵称、头像，不配则均使用默认值
-        //      PLVRoomViewUser *viewUser = [PLVLiveSDKConfig sharedSDK].viewUser;
-        //      roomUser.viewerId = viewUser.viewerId;
-        //      roomUser.viewerName = viewUser.viewerName;
-        //      roomUser.viewerAvatar = viewUser.viewerAvatar;
+        PLVRoomViewUser *viewUser = [PLVLiveSDKConfig sharedSDK].viewUser;
+        roomUser.viewerId = viewUser.viewerId;
+        roomUser.viewerName = viewUser.viewerName;
+        roomUser.viewerAvatar = viewUser.viewerAvatar;
     } completion:^(PLVViewLogCustomParam * _Nonnull customParam) {
         [hud hideAnimated:YES];
         [weakSelf presentViewControllerWithChannelType:channelType];
@@ -91,10 +90,10 @@ WX_EXPORT_METHOD(@selector(loginPlaybackRoom:options:callback:))
                                                appSecret:videoConfig.appSecret
                                                 roomUser:^(PLVRoomUser * _Nonnull roomUser) {
         //      可在此处配置自定义的登陆用户ID、昵称、头像，不配则均使用默认值
-        //      PLVRoomViewUser *viewUser = [PLVLiveSDKConfig sharedSDK].viewUser;
-        //      roomUser.viewerId = viewUser.viewerId;
-        //      roomUser.viewerName = viewUser.viewerName;
-        //      roomUser.viewerAvatar = viewUser.viewerAvatar;
+        PLVRoomViewUser *viewUser = [PLVLiveSDKConfig sharedSDK].viewUser;
+        roomUser.viewerId = viewUser.viewerId;
+        roomUser.viewerName = viewUser.viewerName;
+        roomUser.viewerAvatar = viewUser.viewerAvatar;
     } completion:^(PLVViewLogCustomParam * _Nonnull customParam) {
         [hud hideAnimated:YES];
         [weakSelf presentViewControllerWithChannelType:channelType];
@@ -114,10 +113,6 @@ WX_EXPORT_METHOD(@selector(loginPlaybackRoom:options:callback:))
         // 进入云课堂直播间
         [viewController presentViewController:cloudClassVC animated:YES completion:nil];
         
-#if OpenBugly
-        PLVRoomUser *roomUser = [PLVRoomDataManager sharedManager].roomData.roomUser;
-        [PLVBugReporter setUserIdentifier:roomUser.viewerId];
-#endif
     } else if (channelType == PLVChannelTypeAlone) {
         PLVECWatchRoomViewController * watchLiveVC = [[PLVECWatchRoomViewController alloc] init];
         watchLiveVC.modalPresentationStyle = UIModalPresentationFullScreen;
@@ -125,10 +120,6 @@ WX_EXPORT_METHOD(@selector(loginPlaybackRoom:options:callback:))
         // 进入云课堂直播间
         [viewController presentViewController:watchLiveVC animated:YES completion:nil];
         
-#if OpenBugly
-        PLVRoomUser *roomUser = [PLVRoomDataManager sharedManager].roomData.roomUser;
-        [PLVBugReporter setUserIdentifier:roomUser.viewerId];
-#endif
     }
 }
 
