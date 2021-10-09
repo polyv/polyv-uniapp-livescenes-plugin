@@ -46,7 +46,7 @@ public class PolyvLiveScenesModule extends WXModule {
             return;
         }
 
-        final String channelId =  JsonOptionUtil.getString(options, "channelId", "");
+        final String channelId =  JsonOptionUtil.getString(options, "channelId", "").trim();
         if (TextUtils.isEmpty(channelId)) {
             objectCallback(false, "channelId 不能为空", callback);
             return;
@@ -115,13 +115,13 @@ public class PolyvLiveScenesModule extends WXModule {
             return;
         }
 
-        final String channelId =  JsonOptionUtil.getString(options, "channelId", "");
+        final String channelId =  JsonOptionUtil.getString(options, "channelId", "").trim();
         if (TextUtils.isEmpty(channelId)) {
             objectCallback(false, "channelId 不能为空", callback);
             return;
         }
 
-        final String vid =  JsonOptionUtil.getString(options, "videoId", "");
+        final String vid =  JsonOptionUtil.getString(options, "videoId", "").trim();
         if (TextUtils.isEmpty(vid)) {
             objectCallback(false, "vid 不能为空", callback);
             return;

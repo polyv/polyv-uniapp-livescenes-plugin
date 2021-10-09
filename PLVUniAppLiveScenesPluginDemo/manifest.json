@@ -2,8 +2,8 @@
     "name" : "多场景Uni版",
     "appid" : "",
     "description" : "多场景Uni插件示例",
-    "versionName" : "0.0.5",
-    "versionCode" : 1,
+    "versionName" : "0.0.7",
+    "versionCode" : 7,
     "transformPx" : false,
     /* 5+App特有相关 */
     "app-plus" : {

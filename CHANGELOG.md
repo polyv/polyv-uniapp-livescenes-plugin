@@ -7,12 +7,24 @@
 
 ## PLVLiveScenesSDK 版本对应
 
+- 0.0.7 - （iOS: 1.6.0 , android: 1.4.2 )
 - 0.0.5 - （iOS: 1.6.0 , android: 1.4.2 )
-
 - 0.0.3 - （iOS: 1.3.0 , android: 1.4.2 )
 - 0.0.2 - （iOS: 1.3.0 , android: 1.4.2 )
 
+---
 
+## 【0.0.7】- 2021-10-09
+
+### Changed
+
+- 【Android】Android横屏关闭弹幕，同时关闭聊天区域
+
+## 【0.0.6】- 2021-09-18
+
+### Changed
+
+- 【Android】修复Android自定义跑马灯不显示的bug
 
 ## 【0.0.5】- 2021-06-11
 

@@ -92,4 +92,28 @@ public class PolyvConfigModule extends WXModule {
             callback.invoke(err);
         }
     }
+
+    @JSMethod(uiThread = true)
+    public void setMarqueeConfig(JSONObject options, final JSCallback callback) {
+        if (options == null) {
+            if (callback != null) {
+                JSONObject err = new JSONObject();
+                err.put("isSuccess", false);
+                err.put("errMsg", "传入参数不能为空");
+                callback.invoke(err);
+            }
+            return;
+        }
+
+        //设置跑马灯code
+        String code = JsonOptionUtil.getString(options, "code", "");
+        PLVLiveChannelConfigFiller.setMarqueeCode(code);
+
+        if (callback != null) {
+            JSONObject err = new JSONObject();
+            err.put("isSuccess", true);
+            err.put("errMsg", "配置成功");
+            callback.invoke(err);
+        }
+    }
 }
