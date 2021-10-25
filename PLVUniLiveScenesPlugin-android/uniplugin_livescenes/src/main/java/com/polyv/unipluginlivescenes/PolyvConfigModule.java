@@ -4,6 +4,7 @@ import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSONObject;
 import com.easefun.polyv.livecommon.module.config.PLVLiveChannelConfigFiller;
+import com.easefun.polyv.livecommon.module.modules.marquee.PLVMarqueeCommonController;
 import com.polyv.unipluginlivescenes.utils.JsonOptionUtil;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
@@ -107,7 +108,7 @@ public class PolyvConfigModule extends WXModule {
 
         //设置跑马灯code
         String code = JsonOptionUtil.getString(options, "code", "");
-        PLVLiveChannelConfigFiller.setMarqueeCode(code);
+        PLVMarqueeCommonController.getInstance().setCode(code);
 
         if (callback != null) {
             JSONObject err = new JSONObject();

@@ -79,9 +79,6 @@ dependencies {
     //使用模块下的依赖包，不应当直接在模块中使用，否则会把jar等依赖包打到aar里面，增加用户处理依赖冲突难度
     implementation fileTree(dir: '../uniplugin_livescenes/libs', include: ['*.jar','*.aar'])
 
-    //同时与videoPlayer使用时会冲突
-    api ('com.github.ctiao:DanmakuFlameMaster:0.9.25')
-
 
     //TODO 1、 多场景中用到的依赖，当场景增加时，需要确认是否需要更新
     //demo 层
@@ -111,7 +108,6 @@ dependencies {
     implementation ('com.google.code.findbugs:jsr305:2.0.1')
     implementation ('com.google.code.gson:gson:2.8.5')
     implementation ('com.github.lzyzsd:jsbridge:1.0.4')
-    implementation ('com.github.ctiao:DanmakuFlameMaster:0.9.25')
     implementation ('com.aliyun.ams:alicloud-android-httpdns:2.0.1')
     implementation ('com.aliyun.dpa:oss-android-sdk:2.9.3')
     implementation ('com.tencent.bugly:crashreport:2.6.6.1')
@@ -122,7 +118,7 @@ dependencies {
 
     //LinkMic
     implementation 'io.agora.rtc:full-sdk:2.9.0.107'
-    implementation 'cn.ucloud:ucloudrtclib:1.9.6'
+    implementation 'cn.ucloud:ucloudrtclib:2.0.7'
     implementation 'com.tencent.liteav:LiteAVSDK_TRTC:8.3.9893'
 
 }
