@@ -118,7 +118,8 @@ dependencies {
 
     //LinkMic
     implementation 'io.agora.rtc:full-sdk:2.9.0.107'
-    implementation 'cn.ucloud:ucloudrtclib:2.0.7'
+    //由于uniapp服务器云打包总是拉不下ucloudrtclib库，故将此包改为本地使用
+//    implementation 'cn.ucloud:ucloudrtclib:2.0.7'
     implementation 'com.tencent.liteav:LiteAVSDK_TRTC:8.3.9893'
 
 }
