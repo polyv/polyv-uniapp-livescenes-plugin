@@ -7,6 +7,8 @@ target 'PLVLiveScenesUniPlugin' do
 
   # 保利威 多场景 SDK
   pod 'PLVLiveScenesSDK', '1.6.0'
+  pod 'PLVFoundationSDK', '1.6.0'
+  pod 'PLVBusinessSDK', '1.6.0'
 
   # 保利威 UI源码 需依赖的库
   pod 'SDWebImage', '4.4.0'
