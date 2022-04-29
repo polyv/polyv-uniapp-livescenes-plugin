@@ -91,15 +91,12 @@
 
 ### 集成示例
 
-如果想在其它工程中即成此[【保利威直播离线插件】](https://ext.dcloud.net.cn/plugin?id=5307)，则需要此项目支持 cocoapods
+如果想在其它工程中集成此[【保利威直播离线插件】](https://ext.dcloud.net.cn/plugin?id=5307)，则需要此项目支持 cocoapods
 
-1. 将集成工程中的 podfile 文件中的库复制至自己的 podfile文件中然后执行 pod install;
-
+1. 将此集成工程中的 Podfile 文件中的库复制至自己的 Podfile文件中然后执行 pod install;
 2. 参考[离线打包使用插件](https://nativesupport.dcloud.net.cn/NativePlugin/offline_package/ios)文档的 **集成示例**，参照1 2 3步，将点直播插件下载然后移动至自己项目的文件夹下并在 info.plist 中添加 plugins 信息；
-
-3. 将插件下iOS目录下的 PLVLiveScenesUniPlugin.framework 库添加至工程中 Link Binary With Libraries
-   (注：iOS目录下的其它库已经通过 pod 方式导入因此不需要其它操作)
-     将PLVLiveScenesUniPlugin.framework 库中的 资源文件如.bundle添加至 Copy Bundle Resources下。
+3. 将插件下iOS目录下的 PLVLiveScenesUniPlugin.framework 库添加至工程中 Link Binary With Libraries(注：iOS目录下的其它库已经通过 pod 方式导入因此不需要其它操作)。
+   将PLVLiveScenesUniPlugin.framework 库中的 资源文件如.bundle添加至 Copy Bundle Resources下。
 
 然后运行即可
 
