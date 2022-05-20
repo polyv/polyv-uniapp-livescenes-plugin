@@ -467,21 +467,6 @@
 				</dict>
 			</array>
 		</dict>
-		<dict>
-			<key>hooksClass</key>
-			<string>DCRichAlertProxy</string>
-			<key>plugins</key>
-			<array>
-				<dict>
-					<key>class</key>
-					<string>DCRichAlertModule</string>
-					<key>name</key>
-					<string>DCloud-RichAlert</string>
-					<key>type</key>
-					<string>module</string>
-				</dict>
-			</array>
-		</dict>
 	</array>
 	<key>weixinoauth</key>
 	<dict>
