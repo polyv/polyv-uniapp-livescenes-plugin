@@ -5,13 +5,26 @@ target 'HBuilder-LiveScenes' do
   use_frameworks!
 
   # 保利威 多场景 SDK
-  pod 'PLVLiveScenesSDK', '1.6.0'
-  pod 'PLVFoundationSDK', '1.6.0'
-  pod 'PLVBusinessSDK', '1.6.0'
+  # 移除 aliyun UTDID 依赖方式
+  pod 'PLVLiveScenesSDK', '~> 1.6.0', :subspecs => ['BaseSDK', 'Core', 'Player']
+  pod 'PLVAliHttpDNS', '~> 1.10.0', :subspecs => ['AlicloudHttpDNS', 'AlicloudUtils']
+  pod 'AgoraRtcEngine_iOS', '2.9.0.107'
+  pod 'PLVSocketIOClientSwift', '~> 0.1.0'
+  pod "UCloudRtcSdk", "1.9.1"
+  pod "TXLiteAVSDK_Professional", "8.3.9884"
+  pod "AliyunOSSiOS", "~> 2.10.8"
+  pod "PLVModel", "~> 1.0.4"
 
   # 保利威 UI源码 需依赖的库
   pod 'SDWebImage', '4.4.0'
   pod 'MJRefresh', '~> 3.5.0'
   pod 'PLVImagePickerController', '~> 0.1.0' # 仅手机开播场景需要
 
+  # 保利威 点播 SDK 不需要的可以移除掉
+#  pod 'PolyvVodSDK', '~> 2.16.6’, :subspecs => ['Core']
+#  pod 'SSZipArchive', '~> 2.1.5'
+#  pod 'WCDB', '~> 1.0.6'
+##  pod 'PLVAliHttpDNS', '~> 1.10.0' #多场景和点播只用导入一个
+#  pod 'PLVIJKPlayer', '0.10.1'
+  
 end

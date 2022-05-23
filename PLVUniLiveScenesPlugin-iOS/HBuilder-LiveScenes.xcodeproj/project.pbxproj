@@ -1803,7 +1803,10 @@
 					"$(PROJECT_DIR)/PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework",
 				);
 				MARKETING_VERSION = 0.0.5;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = uni.UNIDCD60AF;
 				PRODUCT_NAME = UniPluginDemo;
 				PROVISIONING_PROFILE = "";
@@ -1853,7 +1856,10 @@
 					"$(PROJECT_DIR)/PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework",
 				);
 				MARKETING_VERSION = 0.0.5;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = uni.UNIDCD60AF;
 				PRODUCT_NAME = UniPluginDemo;
 				PROVISIONING_PROFILE = "";
