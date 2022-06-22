@@ -11,12 +11,21 @@ import com.easefun.polyv.livecommon.module.config.PLVLiveChannelConfigFiller;
 import com.easefun.polyv.livecommon.module.config.PLVLiveScene;
 import com.easefun.polyv.livecommon.module.utils.result.PLVLaunchResult;
 import com.easefun.polyv.liveecommerce.scenes.PLVECLiveEcommerceActivity;
-import com.easefun.polyv.livescenes.config.PolyvLiveChannelType;
-import com.easefun.polyv.livescenes.feature.login.IPLVSceneLoginManager;
-import com.easefun.polyv.livescenes.feature.login.PLVSceneLoginManager;
 import com.easefun.polyv.livescenes.feature.login.PolyvLiveLoginResult;
 import com.easefun.polyv.livescenes.feature.login.PolyvPlaybackLoginResult;
-import com.easefun.polyv.livescenes.playback.video.PolyvPlaybackListType;
+import com.plv.foundationsdk.component.di.PLVDependManager;
+import com.plv.foundationsdk.component.livedata.Event;
+import com.plv.foundationsdk.log.PLVCommonLog;
+import com.plv.foundationsdk.utils.PLVSugarUtil;
+import com.plv.foundationsdk.utils.PLVUtils;
+import com.plv.livescenes.config.PLVLiveChannelType;
+import com.plv.livescenes.feature.login.IPLVSceneLoginManager;
+import com.plv.livescenes.feature.login.PLVLiveLoginResult;
+import com.plv.livescenes.feature.login.PLVPlaybackLoginResult;
+import com.plv.livescenes.feature.login.PLVSceneLoginManager;
+import com.plv.livescenes.playback.video.PLVPlaybackListType;
+import com.plv.thirdpart.blankj.utilcode.util.ToastUtils;
+import com.plv.livescenes.playback.video.PLVPlaybackListType;
 import com.polyv.unipluginlivescenes.utils.JsonOptionUtil;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
@@ -52,10 +61,10 @@ public class PolyvLiveScenesModule extends WXModule {
             return;
         }
 
-        loginManager.loginLive(appId, appSecret, userId, channelId, new IPLVSceneLoginManager.OnLoginListener<PolyvLiveLoginResult>() {
+        loginManager.loginLiveNew(appId, appSecret, userId, channelId, new IPLVSceneLoginManager.OnLoginListener<PLVLiveLoginResult>() {
             @Override
-            public void onLoginSuccess(PolyvLiveLoginResult polyvLiveLoginResult) {
-                PolyvLiveChannelType channelType = polyvLiveLoginResult.getChannelType();
+            public void onLoginSuccess(PLVLiveLoginResult plvLiveLoginResult) {
+                PLVLiveChannelType channelType = plvLiveLoginResult.getChannelTypeNew();
                 switch (curScene) {
                     //进入云课堂场景
                     case CLOUDCLASS:
@@ -127,19 +136,18 @@ public class PolyvLiveScenesModule extends WXModule {
             return;
         }
 
-        final int vodType =  JsonOptionUtil.getInt(options, "vodType", 0);
-        loginManager.loginPlayback(appId, appSecret, userId, channelId, vid, new IPLVSceneLoginManager.OnLoginListener<PolyvPlaybackLoginResult>() {
-
+        final String vodType =  JsonOptionUtil.getString(options, "vodType", "0");
+        loginManager.loginPlaybackNew(appId, appSecret, userId, channelId, vid, new IPLVSceneLoginManager.OnLoginListener<PLVPlaybackLoginResult>() {
             @Override
-            public void onLoginSuccess(PolyvPlaybackLoginResult polyvPlaybackLoginResult) {
-                PolyvLiveChannelType channelType = polyvPlaybackLoginResult.getChannelType();
+            public void onLoginSuccess(PLVPlaybackLoginResult plvPlaybackLoginResult) {
+                PLVLiveChannelType channelType = plvPlaybackLoginResult.getChannelTypeNew();
                 switch (curScene) {
                     //进入云课堂场景
                     case CLOUDCLASS:
                         if (PLVLiveScene.isCloudClassSceneSupportType(channelType)) {
                             PLVLaunchResult launchResult = PLVLCCloudClassActivity.launchPlayback((Activity) mWXSDKInstance.getContext(),
-                                    channelId, channelType, vid, viewerId, nickName,viewerAvatar,
-                                    vodType == PolyvPlaybackListType.VOD ? PolyvPlaybackListType.VOD : PolyvPlaybackListType.PLAYBACK
+                                    channelId, channelType, vid, null, viewerId, nickName,viewerAvatar,
+                                    vodType.equals(PLVPlaybackListType.VOD) ? PLVPlaybackListType.VOD : PLVPlaybackListType.PLAYBACK
                             );
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
@@ -154,7 +162,7 @@ public class PolyvLiveScenesModule extends WXModule {
                         if (PLVLiveScene.isLiveEcommerceSceneSupportType(channelType)) {
                             PLVLaunchResult launchResult = PLVECLiveEcommerceActivity.launchPlayback((Activity) mWXSDKInstance.getContext(),
                                     channelId, vid, viewerId, nickName,viewerAvatar,
-                                    vodType == PolyvPlaybackListType.VOD ? PolyvPlaybackListType.VOD : PolyvPlaybackListType.PLAYBACK);
+                                    vodType.equals(PLVPlaybackListType.VOD) ? PLVPlaybackListType.VOD : PLVPlaybackListType.PLAYBACK);
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
                             } else {

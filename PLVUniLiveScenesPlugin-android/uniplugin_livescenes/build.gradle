@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
@@ -45,7 +45,7 @@ dependencies {
     implementation 'com.facebook.fresco:fresco:1.13.0'
 
     //mediaplayer-full-1.0.0.aar 为私有化ijk，多场景生成插件时不应包括
-    compileOnly fileTree(dir: '../app/libs', include: ['mediaplayer-full-1.0.3.aar'])
+    compileOnly fileTree(dir: '../app/libs', include: ['mediaplayer-full-1.0.5.aar'])
 
     //TODO 2、 同步 PLVUniLiveScenesPlugin-android/app/build.gradle 中的依赖，
     // 改为compileOnly让依赖在模块内，只在编译时存在，打包不包含。package.json中应当重新配置依赖
@@ -80,5 +80,5 @@ dependencies {
     compileOnly 'io.agora.rtc:full-sdk:2.9.0.107'
     //由于uniapp服务器云打包总是拉不下ucloudrtclib库，故将此包改为本地使用
 //    compileOnly 'cn.ucloud:ucloudrtclib:2.0.7'
-    compileOnly 'com.tencent.liteav:LiteAVSDK_TRTC:8.3.9893'
+    compileOnly 'com.tencent.liteav:LiteAVSDK_TRTC:9.3.10768'
 }

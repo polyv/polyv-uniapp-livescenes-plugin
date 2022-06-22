@@ -49,6 +49,11 @@ android {
         // but continue the build even when errors are found:
         abortOnError false
     }
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+        pickFirst 'lib/x86/libc++_shared.so'
+    }
 }
 repositories {
     flatDir {
@@ -69,9 +74,7 @@ dependencies {
     implementation "com.facebook.fresco:animated-gif:1.13.0"
     /*uniapp所需库-----------------------结束*/
     // 基座需要，必须添加
-    implementation 'com.github.bumptech.glide:glide:4.10.0'
     implementation 'com.alibaba:fastjson:1.1.46.android'
-
 
     // 添加uni-app插件
     implementation project(path: ':uniplugin_livescenes')
@@ -83,11 +86,24 @@ dependencies {
     //TODO 1、 多场景中用到的依赖，当场景增加时，需要确认是否需要更新
     //demo 层
 //    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+    // androidx
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
-    api ("com.github.bumptech.glide:okhttp3-integration:4.10.0"){exclude group:'com.github.bumptech.glide',module:'glide'}
+    api ("com.github.bumptech.glide:okhttp3-integration:4.7.1"){
+//        exclude group:'com.github.bumptech.glide',module:'glide'
+    }
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
 
+//    api 'android.arch.persistence.room:runtime:1.1.1'
+//    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+//    api 'android.arch.persistence.room:rxjava2:1.1.1'
+
+    // androidx
+    api 'androidx.room:room-runtime:2.0.0'
+    api 'androidx.room:room-rxjava2:2.0.0'
+    api 'org.litepal.guolindev:core:3.2.3'
 
     //下拉刷新&上拉加载更多控件
     implementation 'me.dkzwm.widget.srl:core:1.6.6.4'
@@ -120,6 +136,5 @@ dependencies {
     implementation 'io.agora.rtc:full-sdk:2.9.0.107'
     //由于uniapp服务器云打包总是拉不下ucloudrtclib库，故将此包改为本地使用
 //    implementation 'cn.ucloud:ucloudrtclib:2.0.7'
-    implementation 'com.tencent.liteav:LiteAVSDK_TRTC:8.3.9893'
-
+    implementation 'com.tencent.liteav:LiteAVSDK_TRTC:9.3.10768'
 }
