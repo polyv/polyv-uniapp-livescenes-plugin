@@ -84,27 +84,18 @@
 		2FD11BBB215C79C5000A23AD /* liblibAdSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD11BBA215C79C5000A23AD /* liblibAdSupport.a */; };
 		360DC898264627C100951296 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360DC897264627C100951296 /* CoreML.framework */; };
 		3648206028373CFD00360098 /* PLVLiveScenesUniPlugin in Frameworks */ = {isa = PBXBuildFile; fileRef = 3648205F28373CFD00360098 /* PLVLiveScenesUniPlugin */; };
-		3648207628373D3000360098 /* PLVChatroom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206128373D2E00360098 /* PLVChatroom.bundle */; };
-		3648207728373D3000360098 /* PLVEmoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206228373D2E00360098 /* PLVEmoticons.bundle */; };
-		3648207828373D3000360098 /* WatchResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206328373D2E00360098 /* WatchResource.bundle */; };
-		3648207928373D3000360098 /* PLVLSStatus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206428373D2E00360098 /* PLVLSStatus.bundle */; };
-		3648207A28373D3000360098 /* PLVLiveRoom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206528373D2E00360098 /* PLVLiveRoom.bundle */; };
-		3648207B28373D3000360098 /* PLVAlbum.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206628373D2E00360098 /* PLVAlbum.bundle */; };
-		3648207C28373D3000360098 /* PLVLinkMic.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206728373D2E00360098 /* PLVLinkMic.bundle */; };
-		3648207D28373D3000360098 /* PLVLSDocument.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206828373D2E00360098 /* PLVLSDocument.bundle */; };
-		3648207E28373D3000360098 /* PLVSAMember.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206928373D2F00360098 /* PLVSAMember.bundle */; };
-		3648207F28373D3000360098 /* PLVLSMember.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206A28373D2F00360098 /* PLVLSMember.bundle */; };
-		3648208028373D3000360098 /* PLVMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206B28373D2F00360098 /* PLVMenu.bundle */; };
-		3648208128373D3000360098 /* PLVSALinkMic.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206C28373D2F00360098 /* PLVSALinkMic.bundle */; };
-		3648208228373D3000360098 /* PLVSAToolbar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206D28373D2F00360098 /* PLVSAToolbar.bundle */; };
-		3648208328373D3000360098 /* PLVLSChatroom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206E28373D2F00360098 /* PLVLSChatroom.bundle */; };
-		3648208428373D3000360098 /* PLVSAChatroom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648206F28373D2F00360098 /* PLVSAChatroom.bundle */; };
-		3648208528373D3000360098 /* PLVEmoticon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3648207028373D2F00360098 /* PLVEmoticon.plist */; };
-		3648208628373D3000360098 /* PLVSAStatusbar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648207128373D2F00360098 /* PLVSAStatusbar.bundle */; };
-		3648208728373D3000360098 /* PLVMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648207228373D2F00360098 /* PLVMedia.bundle */; };
-		3648208828373D3000360098 /* PLVPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648207328373D2F00360098 /* PLVPhotoBrowser.bundle */; };
-		3648208928373D3000360098 /* PLVLSLinkMic.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648207428373D2F00360098 /* PLVLSLinkMic.bundle */; };
-		3648208A28373D3000360098 /* PLVSALiveroom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3648207528373D2F00360098 /* PLVSALiveroom.bundle */; };
+		36B4DAAC2862F07100F0A6F3 /* PLVLinkMic.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA02862F06F00F0A6F3 /* PLVLinkMic.bundle */; };
+		36B4DAAD2862F07100F0A6F3 /* PLVLiveRoom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA12862F06F00F0A6F3 /* PLVLiveRoom.bundle */; };
+		36B4DAAE2862F07100F0A6F3 /* PLVMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA22862F06F00F0A6F3 /* PLVMenu.bundle */; };
+		36B4DAAF2862F07100F0A6F3 /* PLVEmoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA32862F07000F0A6F3 /* PLVEmoticons.bundle */; };
+		36B4DAB02862F07100F0A6F3 /* PLVAlbum.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA42862F07000F0A6F3 /* PLVAlbum.bundle */; };
+		36B4DAB12862F07100F0A6F3 /* PLVCommodity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA52862F07000F0A6F3 /* PLVCommodity.bundle */; };
+		36B4DAB22862F07100F0A6F3 /* PLVEmoticon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA62862F07000F0A6F3 /* PLVEmoticon.plist */; };
+		36B4DAB32862F07100F0A6F3 /* PLVPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA72862F07000F0A6F3 /* PLVPhotoBrowser.bundle */; };
+		36B4DAB42862F07100F0A6F3 /* PLVChatroom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA82862F07000F0A6F3 /* PLVChatroom.bundle */; };
+		36B4DAB52862F07100F0A6F3 /* PLVReward.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAA92862F07000F0A6F3 /* PLVReward.bundle */; };
+		36B4DAB62862F07100F0A6F3 /* WatchResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAAA2862F07000F0A6F3 /* WatchResource.bundle */; };
+		36B4DAB72862F07100F0A6F3 /* PLVMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36B4DAAB2862F07000F0A6F3 /* PLVMedia.bundle */; };
 		4FE3666A254FE5FC00DCD173 /* libuchardet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE36669254FE5FB00DCD173 /* libuchardet.a */; };
 		67065F3A2243868400DC71CA /* Default-896h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67065F1E2243868300DC71CA /* Default-896h@2x.png */; };
 		67065F3B2243868400DC71CA /* Default-Landscape-812h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67065F1F2243868300DC71CA /* Default-Landscape-812h@3x.png */; };
@@ -331,27 +322,18 @@
 		2FDE1569215F468000588710 /* liblibWeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibWeex.a; path = ../SDK/Libs/liblibWeex.a; sourceTree = "<group>"; };
 		360DC897264627C100951296 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		3648205F28373CFD00360098 /* PLVLiveScenesUniPlugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = PLVLiveScenesUniPlugin; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLiveScenesUniPlugin"; sourceTree = "<group>"; };
-		3648206128373D2E00360098 /* PLVChatroom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVChatroom.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVChatroom.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206228373D2E00360098 /* PLVEmoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVEmoticons.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVEmoticons.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206328373D2E00360098 /* WatchResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WatchResource.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/WatchResource.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206428373D2E00360098 /* PLVLSStatus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLSStatus.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLSStatus.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206528373D2E00360098 /* PLVLiveRoom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLiveRoom.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLiveRoom.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206628373D2E00360098 /* PLVAlbum.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVAlbum.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVAlbum.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206728373D2E00360098 /* PLVLinkMic.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLinkMic.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLinkMic.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206828373D2E00360098 /* PLVLSDocument.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLSDocument.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLSDocument.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206928373D2F00360098 /* PLVSAMember.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVSAMember.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVSAMember.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206A28373D2F00360098 /* PLVLSMember.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLSMember.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLSMember.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206B28373D2F00360098 /* PLVMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVMenu.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVMenu.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206C28373D2F00360098 /* PLVSALinkMic.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVSALinkMic.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVSALinkMic.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206D28373D2F00360098 /* PLVSAToolbar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVSAToolbar.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVSAToolbar.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206E28373D2F00360098 /* PLVLSChatroom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLSChatroom.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLSChatroom.bundle"; sourceTree = SOURCE_ROOT; };
-		3648206F28373D2F00360098 /* PLVSAChatroom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVSAChatroom.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVSAChatroom.bundle"; sourceTree = SOURCE_ROOT; };
-		3648207028373D2F00360098 /* PLVEmoticon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = PLVEmoticon.plist; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVEmoticon.plist"; sourceTree = SOURCE_ROOT; };
-		3648207128373D2F00360098 /* PLVSAStatusbar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVSAStatusbar.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVSAStatusbar.bundle"; sourceTree = SOURCE_ROOT; };
-		3648207228373D2F00360098 /* PLVMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVMedia.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVMedia.bundle"; sourceTree = SOURCE_ROOT; };
-		3648207328373D2F00360098 /* PLVPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVPhotoBrowser.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVPhotoBrowser.bundle"; sourceTree = SOURCE_ROOT; };
-		3648207428373D2F00360098 /* PLVLSLinkMic.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLSLinkMic.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVLSLinkMic.bundle"; sourceTree = SOURCE_ROOT; };
-		3648207528373D2F00360098 /* PLVSALiveroom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVSALiveroom.bundle; path = "PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework/PLVSALiveroom.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA02862F06F00F0A6F3 /* PLVLinkMic.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLinkMic.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVLinkMic.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA12862F06F00F0A6F3 /* PLVLiveRoom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVLiveRoom.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVLiveRoom.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA22862F06F00F0A6F3 /* PLVMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVMenu.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVMenu.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA32862F07000F0A6F3 /* PLVEmoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVEmoticons.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVEmoticons.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA42862F07000F0A6F3 /* PLVAlbum.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVAlbum.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVAlbum.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA52862F07000F0A6F3 /* PLVCommodity.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVCommodity.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVCommodity.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA62862F07000F0A6F3 /* PLVEmoticon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = PLVEmoticon.plist; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVEmoticon.plist"; sourceTree = SOURCE_ROOT; };
+		36B4DAA72862F07000F0A6F3 /* PLVPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVPhotoBrowser.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVPhotoBrowser.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA82862F07000F0A6F3 /* PLVChatroom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVChatroom.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVChatroom.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAA92862F07000F0A6F3 /* PLVReward.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVReward.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVReward.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAAA2862F07000F0A6F3 /* WatchResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WatchResource.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/WatchResource.bundle"; sourceTree = SOURCE_ROOT; };
+		36B4DAAB2862F07000F0A6F3 /* PLVMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PLVMedia.bundle; path = "PLV-LiveScenesPlugin/ios/BundleResources/PLVMedia.bundle"; sourceTree = SOURCE_ROOT; };
 		4FE36669254FE5FB00DCD173 /* libuchardet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuchardet.a; path = ../SDK/Libs/libuchardet.a; sourceTree = "<group>"; };
 		4FF0AB46259062C700A54D59 /* UIImage+ExtendedCacheData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ExtendedCacheData.h"; sourceTree = "<group>"; };
 		4FF0AB47259062C700A54D59 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAnimatedImageRep.h; sourceTree = "<group>"; };
@@ -861,27 +843,18 @@
 		36BC240826F20ACC00F747A4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3648206628373D2E00360098 /* PLVAlbum.bundle */,
-				3648206128373D2E00360098 /* PLVChatroom.bundle */,
-				3648207028373D2F00360098 /* PLVEmoticon.plist */,
-				3648206228373D2E00360098 /* PLVEmoticons.bundle */,
-				3648206728373D2E00360098 /* PLVLinkMic.bundle */,
-				3648206528373D2E00360098 /* PLVLiveRoom.bundle */,
-				3648206E28373D2F00360098 /* PLVLSChatroom.bundle */,
-				3648206828373D2E00360098 /* PLVLSDocument.bundle */,
-				3648207428373D2F00360098 /* PLVLSLinkMic.bundle */,
-				3648206A28373D2F00360098 /* PLVLSMember.bundle */,
-				3648206428373D2E00360098 /* PLVLSStatus.bundle */,
-				3648207228373D2F00360098 /* PLVMedia.bundle */,
-				3648206B28373D2F00360098 /* PLVMenu.bundle */,
-				3648207328373D2F00360098 /* PLVPhotoBrowser.bundle */,
-				3648206F28373D2F00360098 /* PLVSAChatroom.bundle */,
-				3648206C28373D2F00360098 /* PLVSALinkMic.bundle */,
-				3648207528373D2F00360098 /* PLVSALiveroom.bundle */,
-				3648206928373D2F00360098 /* PLVSAMember.bundle */,
-				3648207128373D2F00360098 /* PLVSAStatusbar.bundle */,
-				3648206D28373D2F00360098 /* PLVSAToolbar.bundle */,
-				3648206328373D2E00360098 /* WatchResource.bundle */,
+				36B4DAA42862F07000F0A6F3 /* PLVAlbum.bundle */,
+				36B4DAA82862F07000F0A6F3 /* PLVChatroom.bundle */,
+				36B4DAA52862F07000F0A6F3 /* PLVCommodity.bundle */,
+				36B4DAA62862F07000F0A6F3 /* PLVEmoticon.plist */,
+				36B4DAA32862F07000F0A6F3 /* PLVEmoticons.bundle */,
+				36B4DAA02862F06F00F0A6F3 /* PLVLinkMic.bundle */,
+				36B4DAA12862F06F00F0A6F3 /* PLVLiveRoom.bundle */,
+				36B4DAAB2862F07000F0A6F3 /* PLVMedia.bundle */,
+				36B4DAA22862F06F00F0A6F3 /* PLVMenu.bundle */,
+				36B4DAA72862F07000F0A6F3 /* PLVPhotoBrowser.bundle */,
+				36B4DAA92862F07000F0A6F3 /* PLVReward.bundle */,
+				36B4DAAA2862F07000F0A6F3 /* WatchResource.bundle */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1505,63 +1478,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				6729047123547917004DE4EB /* weexUniJs.js in Resources */,
-				3648208728373D3000360098 /* PLVMedia.bundle in Resources */,
 				2F0BA476215B955300F67004 /* AMap.bundle in Resources */,
-				3648208328373D3000360098 /* PLVLSChatroom.bundle in Resources */,
-				3648208528373D3000360098 /* PLVEmoticon.plist in Resources */,
 				2F0BA49B215B955300F67004 /* qucsdkResources.bundle in Resources */,
+				36B4DAB42862F07100F0A6F3 /* PLVChatroom.bundle in Resources */,
 				67B7CAD721DE1F160083E96A /* bds_easr_dnn_wakeup_model.dat in Resources */,
+				36B4DAAF2862F07100F0A6F3 /* PLVEmoticons.bundle in Resources */,
 				67B7CAD521DE1F160083E96A /* bds_easr_gramm.dat in Resources */,
+				36B4DAB32862F07100F0A6F3 /* PLVPhotoBrowser.bundle in Resources */,
 				67065F4E2243868400DC71CA /* Default-Portrait7-1194h@2x~ipad.png in Resources */,
 				2F0BA3F9215B48A700F67004 /* Images.xcassets in Resources */,
 				67065F4C2243868400DC71CA /* Default-Landscape@2x~ipad.png in Resources */,
-				3648208A28373D3000360098 /* PLVSALiveroom.bundle in Resources */,
+				36B4DAB02862F07100F0A6F3 /* PLVAlbum.bundle in Resources */,
 				67065F442243868400DC71CA /* Default-Portrait@2x~ipad.png in Resources */,
+				36B4DAB72862F07100F0A6F3 /* PLVMedia.bundle in Resources */,
+				36B4DAAD2862F07100F0A6F3 /* PLVLiveRoom.bundle in Resources */,
 				670948DF238D2D2B00E5C970 /* __uniappes6.js in Resources */,
+				36B4DAB52862F07100F0A6F3 /* PLVReward.bundle in Resources */,
+				36B4DAAC2862F07100F0A6F3 /* PLVLinkMic.bundle in Resources */,
+				36B4DAB12862F07100F0A6F3 /* PLVCommodity.bundle in Resources */,
 				2F0BA49F215B955300F67004 /* WeiboSDK.bundle in Resources */,
 				67B7CAD621DE1F160083E96A /* bds_easr_wakeup_words.dat in Resources */,
 				67065F402243868400DC71CA /* Default-Portrait7@2x~ipad.png in Resources */,
 				67065F512243868400DC71CA /* Default-Portrait7-1112h@2x~ipad.png in Resources */,
 				67B7CAD121DE1F160083E96A /* bds_easr_basic_model.dat in Resources */,
 				2F0BA49C215B955300F67004 /* SVProgressHUD.bundle in Resources */,
-				3648208628373D3000360098 /* PLVSAStatusbar.bundle in Resources */,
 				67414FA024333E320093CD65 /* uni-jsframework.js in Resources */,
 				67B7CAD221DE1F160083E96A /* bds_easr_mfe_cmvn.dat in Resources */,
 				67065F3F2243868400DC71CA /* Default-736h@3x.png in Resources */,
-				3648208828373D3000360098 /* PLVPhotoBrowser.bundle in Resources */,
 				8EED62A6198A1D13000A4449 /* InfoPlist.strings in Resources */,
 				67065F4B2243868400DC71CA /* Default@2x.png in Resources */,
 				67065F492243868400DC71CA /* Default-896h@3x.png in Resources */,
-				3648207728373D3000360098 /* PLVEmoticons.bundle in Resources */,
 				67B7CAD321DE1F160083E96A /* temp_license_2018-02-24.dat in Resources */,
 				67B7CAD421DE1F160083E96A /* bds_easr_mfe_dnn.dat in Resources */,
-				3648208228373D3000360098 /* PLVSAToolbar.bundle in Resources */,
-				3648207928373D3000360098 /* PLVLSStatus.bundle in Resources */,
 				67065F552243868400DC71CA /* Default-Landscape-736h@3x.png in Resources */,
-				3648207A28373D3000360098 /* PLVLiveRoom.bundle in Resources */,
 				67065F4D2243868400DC71CA /* Default-Landscape7@2x~ipad.png in Resources */,
+				36B4DAAE2862F07100F0A6F3 /* PLVMenu.bundle in Resources */,
 				2F0BA4DC215BA12300F67004 /* LaunchScreen.storyboard in Resources */,
-				3648208128373D3000360098 /* PLVSALinkMic.bundle in Resources */,
 				67065F3B2243868400DC71CA /* Default-Landscape-812h@3x.png in Resources */,
-				3648208428373D3000360098 /* PLVSAChatroom.bundle in Resources */,
 				67065F412243868400DC71CA /* Default-Landscape-667h@2x.png in Resources */,
-				3648207E28373D3000360098 /* PLVSAMember.bundle in Resources */,
-				3648207628373D3000360098 /* PLVChatroom.bundle in Resources */,
 				67065F3D2243868400DC71CA /* Default-Portrait~ipad.png in Resources */,
-				3648207F28373D3000360098 /* PLVLSMember.bundle in Resources */,
-				3648207C28373D3000360098 /* PLVLinkMic.bundle in Resources */,
 				2F0BA475215B955300F67004 /* AlipaySDK.bundle in Resources */,
 				67B7CAD021DE1F160083E96A /* bds_license.dat in Resources */,
 				2F0BA499215B955300F67004 /* PandoraApi.bundle in Resources */,
-				3648207828373D3000360098 /* WatchResource.bundle in Resources */,
-				3648207B28373D3000360098 /* PLVAlbum.bundle in Resources */,
 				67A3C8942276ED98004F2332 /* weex-polyfill.js in Resources */,
-				3648208028373D3000360098 /* PLVMenu.bundle in Resources */,
 				67065F3A2243868400DC71CA /* Default-896h@2x.png in Resources */,
-				3648207D28373D3000360098 /* PLVLSDocument.bundle in Resources */,
 				67065F3E2243868400DC71CA /* Default-667h@2x.png in Resources */,
 				67065F4A2243868400DC71CA /* Default.png in Resources */,
 				67065F452243868400DC71CA /* Default-Landscape~ipad.png in Resources */,
+				36B4DAB62862F07100F0A6F3 /* WatchResource.bundle in Resources */,
 				67065F432243868400DC71CA /* Default-Portrait7-1366h@2x~ipad.png in Resources */,
 				67065F472243868400DC71CA /* Default-Landscape7~ipad.png in Resources */,
 				67065F502243868400DC71CA /* Default-812h@3x.png in Resources */,
@@ -1569,10 +1533,10 @@
 				2F0BA497215B955300F67004 /* mapapi.bundle in Resources */,
 				67065F482243868400DC71CA /* Default-Landscape-1194h@2x~ipad.png in Resources */,
 				67065F3C2243868400DC71CA /* Default-Landscape-896h@3x.png in Resources */,
+				36B4DAB22862F07100F0A6F3 /* PLVEmoticon.plist in Resources */,
 				67E9CDCF22968D2E0076E0FB /* Localizable.strings in Resources */,
 				67B7CAA221DCE8180083E96A /* control.xml in Resources */,
 				67065F422243868400DC71CA /* Default-Landscape-1366h@2x~ipad.png in Resources */,
-				3648208928373D3000360098 /* PLVLSLinkMic.bundle in Resources */,
 				67065F522243868400DC71CA /* Default-Portrait7~ipad.png in Resources */,
 				67065F462243868400DC71CA /* Default-568h@2x.png in Resources */,
 				8EED6590198A3DF7000A4449 /* Pandora in Resources */,
@@ -1614,36 +1578,60 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HBuilder-LiveScenes/Pods-HBuilder-LiveScenes-frameworks.sh",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraAIDenoiseExtension.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraCIExtension.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraCore.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraDav1dExtension.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraFDExtension.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraJNDExtension.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraRtcKit.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraSoundTouch.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraVideoProcessExtension.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraVideoSegmentationExtension.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/Agorafdkaac.framework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/Agoraffmpeg.framework",
 				"${BUILT_PRODUCTS_DIR}/AliyunOSSiOS/AliyunOSSiOS.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${PODS_ROOT}/PLVIJKPlayer/PLVIJKPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/PLVImagePickerController/PLVImagePickerController.framework",
-				"${BUILT_PRODUCTS_DIR}/PLVMarquee/PLVMarquee.framework",
 				"${BUILT_PRODUCTS_DIR}/PLVModel/PLVModel.framework",
 				"${BUILT_PRODUCTS_DIR}/PLVSocketIOClientSwift/PLVSocketIOClientSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/PLVStarscream/PLVStarscream.framework",
-				"${BUILT_PRODUCTS_DIR}/PLVTimer/PLVTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework",
 				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
-				"${PODS_ROOT}/UCloudRtcSdk/UCloudRtcSdk_iOS-1.9.1/UCloudRtcSdk_ios.framework",
+				"${BUILT_PRODUCTS_DIR}/SVGAPlayer/SVGAPlayer.framework",
+				"${PODS_ROOT}/UCloudRtcSdk/UCloudRtcSdk_iOS_1.9.2.9/UCloudRtcSdk_ios.framework",
 				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
 				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAIDenoiseExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraCIExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraDav1dExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraFDExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraJNDExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraRtcKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraSoundTouch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraVideoProcessExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraVideoSegmentationExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agorafdkaac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agoraffmpeg.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AliyunOSSiOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLVIJKPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLVImagePickerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLVMarquee.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLVModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLVSocketIOClientSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLVStarscream.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLVTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqliterk.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVGAPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UCloudRtcSdk_ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
@@ -1802,7 +1790,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework",
 				);
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.2.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -1855,7 +1843,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/PLV-LiveScenesPlugin/ios/PLVLiveScenesUniPlugin.framework",
 				);
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.2.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
