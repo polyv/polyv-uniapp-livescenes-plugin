@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 9
-        versionName "0.0.9"
+        versionCode 22
+        versionName "0.2.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -45,7 +45,7 @@ dependencies {
     implementation 'com.facebook.fresco:fresco:1.13.0'
 
     //mediaplayer-full-1.0.0.aar 为私有化ijk，多场景生成插件时不应包括
-    compileOnly fileTree(dir: '../app/libs', include: ['mediaplayer-full-1.0.5.aar'])
+    compileOnly fileTree(dir: '../app/libs', include: ['mediaplayer-full-1.0.9.aar'])
 
     //TODO 2、 同步 PLVUniLiveScenesPlugin-android/app/build.gradle 中的依赖，
     // 改为compileOnly让依赖在模块内，只在编译时存在，打包不包含。package.json中应当重新配置依赖

@@ -131,11 +131,6 @@ public class PolyvLiveScenesModule extends WXModule {
         }
 
         final String vid =  JsonOptionUtil.getString(options, "videoId", "").trim();
-        if (TextUtils.isEmpty(vid)) {
-            objectCallback(false, "vid 不能为空", callback);
-            return;
-        }
-
         final String vodType =  JsonOptionUtil.getString(options, "vodType", "0");
         loginManager.loginPlaybackNew(appId, appSecret, userId, channelId, vid, new IPLVSceneLoginManager.OnLoginListener<PLVPlaybackLoginResult>() {
             @Override
