@@ -61,6 +61,8 @@ public class PolyvLiveScenesModule extends WXModule {
             return;
         }
 
+        final String liveParam4 =  JsonOptionUtil.getString(options, "liveParam4", "");
+        final String liveParam5 =  JsonOptionUtil.getString(options, "liveParam5", "");
         loginManager.loginLiveNew(appId, appSecret, userId, channelId, new IPLVSceneLoginManager.OnLoginListener<PLVLiveLoginResult>() {
             @Override
             public void onLoginSuccess(PLVLiveLoginResult plvLiveLoginResult) {
@@ -69,7 +71,7 @@ public class PolyvLiveScenesModule extends WXModule {
                     //进入云课堂场景
                     case CLOUDCLASS:
                         if (PLVLiveScene.isCloudClassSceneSupportType(channelType)) {
-                            PLVLaunchResult launchResult = PLVLCCloudClassActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, channelType, viewerId, nickName, viewerAvatar);
+                            PLVLaunchResult launchResult = PLVLCCloudClassActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, channelType, viewerId, nickName, viewerAvatar, liveParam4, liveParam5);
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
                             } else {
@@ -84,7 +86,7 @@ public class PolyvLiveScenesModule extends WXModule {
                     //进入直播带货场景
                     case ECOMMERCE:
                         if (PLVLiveScene.isLiveEcommerceSceneSupportType(channelType)) {
-                            PLVLaunchResult launchResult = PLVECLiveEcommerceActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, viewerId, nickName, viewerAvatar);
+                            PLVLaunchResult launchResult = PLVECLiveEcommerceActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, viewerId, nickName, viewerAvatar, liveParam4, liveParam5);
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
                             } else {
@@ -130,6 +132,8 @@ public class PolyvLiveScenesModule extends WXModule {
             return;
         }
 
+        final String liveParam4 =  JsonOptionUtil.getString(options, "liveParam4", "");
+        final String liveParam5 =  JsonOptionUtil.getString(options, "liveParam5", "");
         final String vid =  JsonOptionUtil.getString(options, "videoId", "").trim();
         final String vodType =  JsonOptionUtil.getString(options, "vodType", "0");
         loginManager.loginPlaybackNew(appId, appSecret, userId, channelId, vid, new IPLVSceneLoginManager.OnLoginListener<PLVPlaybackLoginResult>() {
@@ -141,8 +145,8 @@ public class PolyvLiveScenesModule extends WXModule {
                     case CLOUDCLASS:
                         if (PLVLiveScene.isCloudClassSceneSupportType(channelType)) {
                             PLVLaunchResult launchResult = PLVLCCloudClassActivity.launchPlayback((Activity) mWXSDKInstance.getContext(),
-                                    channelId, channelType, vid, null, viewerId, nickName,viewerAvatar,
-                                    vodType.equals(PLVPlaybackListType.VOD) ? PLVPlaybackListType.VOD : PLVPlaybackListType.PLAYBACK
+                                    channelId, channelType, vid, null, viewerId, nickName, viewerAvatar, liveParam4, liveParam5,
+                                    vodType.equals("0") ? PLVPlaybackListType.PLAYBACK : PLVPlaybackListType.VOD
                             );
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
@@ -156,8 +160,8 @@ public class PolyvLiveScenesModule extends WXModule {
                     case ECOMMERCE:
                         if (PLVLiveScene.isLiveEcommerceSceneSupportType(channelType)) {
                             PLVLaunchResult launchResult = PLVECLiveEcommerceActivity.launchPlayback((Activity) mWXSDKInstance.getContext(),
-                                    channelId, vid, viewerId, nickName,viewerAvatar,
-                                    vodType.equals(PLVPlaybackListType.VOD) ? PLVPlaybackListType.VOD : PLVPlaybackListType.PLAYBACK);
+                                    channelId, vid, viewerId, nickName, viewerAvatar, liveParam4, liveParam5,
+                                    vodType.equals("0") ? PLVPlaybackListType.PLAYBACK : PLVPlaybackListType.VOD);
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
                             } else {

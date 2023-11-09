@@ -6,7 +6,7 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		mQraRp7hwPfY1V2szuMq9DZ7+gg=
+		sv9HSzwiYEQmjuYcp9mh5VidsOc=
 		</data>
 		<key>PLVAlbum.bundle/arrowDown@2x.png</key>
 		<data>
@@ -96,6 +96,46 @@
 		<data>
 		eaWjMaPgPfFP4GxGp/W5HyHnVNk=
 		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_doc_icon@2x.png</key>
+		<data>
+		idlW3I0m4dRvt1F9O0x0yuStBGo=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_doc_icon@3x.png</key>
+		<data>
+		gKaPvhXcDL9gn80Yh81vXz34Mhw=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_pdf_icon@2x.png</key>
+		<data>
+		LUu+3p079zyS6iqnPp/bpj7qxvE=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_pdf_icon@3x.png</key>
+		<data>
+		qQXEApuwwvDVSNg0W9DDvT7GpJo=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_ppt_icon@2x.png</key>
+		<data>
+		003fgJuOG/ygxfK+o66GzqUGJmo=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_ppt_icon@3x.png</key>
+		<data>
+		5mBFsQsH1zMR6RBw1vqR5GzVrXU=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_xls_icon@2x.png</key>
+		<data>
+		dobHp7a4rqq+5Z9snkYG0iAM//g=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_xls_icon@3x.png</key>
+		<data>
+		YNuy/S3vAAJ2YFA974yP+pzAscY=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_giftbox@2x.png</key>
+		<data>
+		wvJ3HA5cXfk5lLJ1xfMpTj+dOjA=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_giftbox@3x.png</key>
+		<data>
+		tFoKRApAzny3HXp8W+UDW6pleAU=
+		</data>
 		<key>PLVChatroom.bundle/plvlc_chatroom_like@2x.png</key>
 		<data>
 		v/rXrVH61NNKHaGvc/SSldKz42Q=
@@ -160,6 +200,22 @@
 		<data>
 		0qa1Hg0bq189hl1IIgzV/eoY+IA=
 		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_popup_close@2x.png</key>
+		<data>
+		7zgz1hrfQqbq9LfWdjJVYaLUCVs=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_popup_close@3x.png</key>
+		<data>
+		HuhlK8em+DJRUvvvX+nbxli8fmw=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_redpack@2x.png</key>
+		<data>
+		en7Du8SiGlQUxOoMcnooG9tA8Pg=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_redpack@3x.png</key>
+		<data>
+		9X0AryNwVwqXoKJ0VVGV1CgpnHw=
+		</data>
 		<key>PLVChatroom.bundle/plvlc_chatroom_refresh@2x.png</key>
 		<data>
 		lRqNqtXnpsAm3lsJA7J51MySGhk=
@@ -167,6 +223,14 @@
 		<key>PLVChatroom.bundle/plvlc_chatroom_refresh@3x.png</key>
 		<data>
 		FnnHGMT4vn/16dWpG9N+F5ja0dI=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_reply_close_btn@2x.png</key>
+		<data>
+		XngBucBYtls1DIhzSisr9eZyd0Y=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_chatroom_reply_close_btn@3x.png</key>
+		<data>
+		BdHcCVjKmTFitsPEilW5tgD+We8=
 		</data>
 		<key>PLVChatroom.bundle/plvlc_chatroom_stars_left@2x.png</key>
 		<data>
@@ -183,6 +247,14 @@
 		<key>PLVChatroom.bundle/plvlc_chatroom_stars_right@3x.png</key>
 		<data>
 		cRClYqu0J4oCJTGOZgl970hK+w0=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_iarentrance_questionnaire@2x.png</key>
+		<data>
+		xBM1BIsHiV29rB0IaN1MW6/igAw=
+		</data>
+		<key>PLVChatroom.bundle/plvlc_iarentrance_questionnaire@3x.png</key>
+		<data>
+		7qY1wDcPAIq6OhAf9Dd6Iggic8c=
 		</data>
 		<key>PLVChatroom.bundle/plvlc_keyboard_album@2x.png</key>
 		<data>
@@ -303,6 +375,38 @@
 		<key>PLVCommodity.bundle/plv_commodity_jump_btn_disabled@3x.png</key>
 		<data>
 		AcqSk4T1G7h5eTSaOGYymJdZXAY=
+		</data>
+		<key>PLVCommodity.bundle/plv_commodity_jump_normal_btn@2x.png</key>
+		<data>
+		hkaa2PnZXSDKoLxGqRYVnEl6qaE=
+		</data>
+		<key>PLVCommodity.bundle/plv_commodity_jump_normal_btn@3x.png</key>
+		<data>
+		TSx5i6FDpm4S+JF4D1trYh6OhNI=
+		</data>
+		<key>PLVCommodity.bundle/plv_commodity_webview_close_btn@2x.png</key>
+		<data>
+		vpHwG0eEAjKDHEeStP+FYCVfNjQ=
+		</data>
+		<key>PLVCommodity.bundle/plv_commodity_webview_close_btn@3x.png</key>
+		<data>
+		OOqo1xuroniPfzDo1sBXQOrxmrc=
+		</data>
+		<key>PLVCommodity.bundle/plv_commodity_webview_leftBack_btn@2x.png</key>
+		<data>
+		Awhb16Tg4Qj1etybazGZd3Gw9UM=
+		</data>
+		<key>PLVCommodity.bundle/plv_commodity_webview_leftBack_btn@3x.png</key>
+		<data>
+		9Bc/VA/oZRTXK52zBKdSUyNHAjE=
+		</data>
+		<key>PLVDefaultPageView.bundle/plv_default_page_view_icon@2x.png</key>
+		<data>
+		t6Jbhhhd8VncFw0MDrboGLwHwyQ=
+		</data>
+		<key>PLVDefaultPageView.bundle/plv_default_page_view_icon@3x.png</key>
+		<data>
+		Lmyu3cXxjucu4kEtzlPiQbQBWKI=
 		</data>
 		<key>PLVEmoticon.plist</key>
 		<data>
@@ -500,6 +604,10 @@
 		<data>
 		oTNqgKYCacXYC1xyoMuoNukQuus=
 		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_invitation_bgm.wav</key>
+		<data>
+		8UGOuYg8/gjwm/zWickWZhS5zO8=
+		</data>
 		<key>PLVLinkMic.bundle/plvlc_linkmic_mic_close@2x.png</key>
 		<data>
 		+nhhmeUUFlAXC3MQSvXqOaxdYVM=
@@ -636,6 +744,46 @@
 		<data>
 		EKDMr9zLA3ytCxfo5ST3yuO35w8=
 		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_close@2x.png</key>
+		<data>
+		UNFm39hbTpw5BE08VcORA4gPI9Q=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_close@3x.png</key>
+		<data>
+		KLVtf24/1jmNdJbRv5Ssvv+5sP8=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_icon@2x.png</key>
+		<data>
+		udY9VKqOH2zboqVcX2ovMJpU6TI=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_icon@3x.png</key>
+		<data>
+		rJvJfrV9fER2st/7mR/PVJFqoNc=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_mic_icon@2x.png</key>
+		<data>
+		E576sepUJP83hkF0pha8/u5tdVk=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_mic_icon@3x.png</key>
+		<data>
+		ho9jDHnxfSk+EZT+gUooOtD7utg=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_onlyaudio_icon@2x.png</key>
+		<data>
+		vJDL5GCChySDU01J+i0hCg94xQQ=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_onlyaudio_icon@3x.png</key>
+		<data>
+		GQoDeIbOcUOQiX1VGGBP94YUBG4=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_tips_icon@2x.png</key>
+		<data>
+		0rimWHL/X31jViSGS8m/a3yhrGs=
+		</data>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_tips_icon@3x.png</key>
+		<data>
+		TIayCChFqPGwaTy5+zR2/SDOvpM=
+		</data>
 		<key>PLVLinkMic.bundle/plvlc_linkmic_setting@2x.png</key>
 		<data>
 		AmdOjZDxzhd8t/d9zeAH/TuFvmg=
@@ -679,6 +827,14 @@
 		<key>PLVLinkMic.bundle/plvlc_linkmic_window_placeholder_ipad@2x.png</key>
 		<data>
 		4AGk5Fp7HEbU8+CS7IA/KO/rBLc=
+		</data>
+		<key>PLVLiveRoom.bundle/plv_liveroom_commodity@2x.png</key>
+		<data>
+		WewOUXXFxnzgyRU+2aufDI2IveA=
+		</data>
+		<key>PLVLiveRoom.bundle/plv_liveroom_commodity@3x.png</key>
+		<data>
+		m1MI5IyBEuV5w6czBc/5BqzbR14=
 		</data>
 		<key>PLVLiveRoom.bundle/plv_liveroom_reward@2x.png</key>
 		<data>
@@ -728,6 +884,14 @@
 		<data>
 		z91GSrXhL0Tc2aQSqAEq4yJn1Kk=
 		</data>
+		<key>PLVLiveRoom.bundle/plvlc_liveroom_reply_close_btn@2x.png</key>
+		<data>
+		t56ERPWfM1IBD8wKGwKshpVVp6s=
+		</data>
+		<key>PLVLiveRoom.bundle/plvlc_liveroom_reply_close_btn@3x.png</key>
+		<data>
+		XpbZsax1K9wsSJrhHUtfhv+fRVI=
+		</data>
 		<key>PLVMedia.bundle/plvlc_media_audio_placeholder@2x.png</key>
 		<data>
 		al3Jyek6JPHdKuMl1E3wEtt9DHo=
@@ -735,6 +899,70 @@
 		<key>PLVMedia.bundle/plvlc_media_audio_placeholder@3x.png</key>
 		<data>
 		VOqsmnv9rmuAW77VnmI1WN332oc=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_arrow_normal@2x.png</key>
+		<data>
+		E8/SzQmZ7aixcnRR558XGDhicEE=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_arrow_normal@3x.png</key>
+		<data>
+		k2MrL/ocyWI1X9BF8ZQPStEXv2s=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_clear@2x.png</key>
+		<data>
+		Kb1DzzjiDnr0PYgso3Sq+nE6xLs=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_clear@3x.png</key>
+		<data>
+		0p5FwfDJ7Yf7NYYD2HTpN/I3ais=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_eraser_normal@2x.png</key>
+		<data>
+		lV+gt9HVPZPmmJEXvHVs8xFCHEg=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_eraser_normal@3x.png</key>
+		<data>
+		4J+P4OiDTrWcR4zws2vjcbVvkmI=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_freeline_normal@2x.png</key>
+		<data>
+		7BPvBwZGnWO18PDI9kI5YRA1ox4=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_freeline_normal@3x.png</key>
+		<data>
+		cyJY7LOGNGfQK4om7DbJLN9GIOU=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_more@2x.png</key>
+		<data>
+		9u4A6QZVRA+qc/0wDv695V4KiNI=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_more@3x.png</key>
+		<data>
+		OY12yADRc0KWOAWBfR3X+Q0XBXA=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_rect_normal@2x.png</key>
+		<data>
+		G/key4Zc7Kc+dtiXCOGRHUiSsls=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_rect_normal@3x.png</key>
+		<data>
+		ilCHUNV8NOqRE266RtmNWtQTiII=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_revoke@2x.png</key>
+		<data>
+		4JMNIIcgwnGYSMXAHYd+FQv3Qcw=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_revoke@3x.png</key>
+		<data>
+		ZIJi77cywM44y05n1egEtYKHrV4=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_text_normal@2x.png</key>
+		<data>
+		eltQx3MHZ9E/GPdk9dQ8faTwEfU=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_text_normal@3x.png</key>
+		<data>
+		WpO7Udw7HugH+f9RUQoLgHASkR0=
 		</data>
 		<key>PLVMedia.bundle/plvlc_media_close_btn@2x.png</key>
 		<data>
@@ -792,6 +1020,14 @@
 		<data>
 		HK0YpNQIJb/zAGhWO1ZBLFcMJks=
 		</data>
+		<key>PLVMedia.bundle/plvlc_media_paint_exit@2x.png</key>
+		<data>
+		8JmSoi9PVjoVxyVplmRvUFNAj+Y=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_paint_exit@3x.png</key>
+		<data>
+		sFRQF1Tbf6ND7tK13qTQfjBijfg=
+		</data>
 		<key>PLVMedia.bundle/plvlc_media_ppt_placeholder@2x.png</key>
 		<data>
 		w4k11k1hi5EqKXdHMMC6a+QqLh8=
@@ -847,6 +1083,14 @@
 		<key>PLVMedia.bundle/plvlc_media_skin_more@3x.png</key>
 		<data>
 		ER1P0eYZrNH47usc+uupxPIxtgc=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_skin_paint@2x.png</key>
+		<data>
+		1E46iTh0Gc2GMYOeh4sZo06xncM=
+		</data>
+		<key>PLVMedia.bundle/plvlc_media_skin_paint@3x.png</key>
+		<data>
+		oBYH50lk4lJVXZRbL84o5hISWAE=
 		</data>
 		<key>PLVMedia.bundle/plvlc_media_skin_pause@2x.png</key>
 		<data>
@@ -1043,6 +1287,38 @@
 		<key>PLVReward.bundle/villa.svga</key>
 		<data>
 		zVUWT7lKAlwGEUW2O6wm5LmvERo=
+		</data>
+		<key>PLVShare.bundle/plv_share_copylink_btn@2x.png</key>
+		<data>
+		Lv/jjsYBGp9z3FOIpa5Kc01eJS8=
+		</data>
+		<key>PLVShare.bundle/plv_share_copylink_btn@3x.png</key>
+		<data>
+		5jjkEIYOOZPzwtIZhBqiJdVxjug=
+		</data>
+		<key>PLVShare.bundle/plv_share_savepicture_btn@2x.png</key>
+		<data>
+		ONe9EZueJdcQun1W5VyqZnjPMM8=
+		</data>
+		<key>PLVShare.bundle/plv_share_savepicture_btn@3x.png</key>
+		<data>
+		Ht269mqiy/QfVJ13CzWImQ6Gcqk=
+		</data>
+		<key>PLVShare.bundle/plv_share_wxsession_btn@2x.png</key>
+		<data>
+		bs1rSGbW9fixc0Sq/r0sOiLsHvE=
+		</data>
+		<key>PLVShare.bundle/plv_share_wxsession_btn@3x.png</key>
+		<data>
+		fhBSRDu9BDhr63si2c8z3pAOpJ0=
+		</data>
+		<key>PLVShare.bundle/plv_share_wxtimeline_btn@2x.png</key>
+		<data>
+		VVsLfk0yXsIld1tePQTJ0oivwhw=
+		</data>
+		<key>PLVShare.bundle/plv_share_wxtimeline_btn@3x.png</key>
+		<data>
+		10Kwd85NwGeCze/Xafbqu5aEKfM=
 		</data>
 		<key>WatchResource.bundle/plv_audioSwitch_btn@2x.png</key>
 		<data>
@@ -1432,6 +1708,78 @@
 		<data>
 		D/2A+CguKP3D2yU+HzuYJwjAsAM=
 		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_doc_icon@2x.png</key>
+		<data>
+		idlW3I0m4dRvt1F9O0x0yuStBGo=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_doc_icon@3x.png</key>
+		<data>
+		gKaPvhXcDL9gn80Yh81vXz34Mhw=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_pdf_icon@2x.png</key>
+		<data>
+		LUu+3p079zyS6iqnPp/bpj7qxvE=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_pdf_icon@3x.png</key>
+		<data>
+		qQXEApuwwvDVSNg0W9DDvT7GpJo=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_ppt_icon@2x.png</key>
+		<data>
+		003fgJuOG/ygxfK+o66GzqUGJmo=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_ppt_icon@3x.png</key>
+		<data>
+		5mBFsQsH1zMR6RBw1vqR5GzVrXU=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_xls_icon@2x.png</key>
+		<data>
+		dobHp7a4rqq+5Z9snkYG0iAM//g=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_file_xls_icon@3x.png</key>
+		<data>
+		YNuy/S3vAAJ2YFA974yP+pzAscY=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_popup_close@2x.png</key>
+		<data>
+		7zgz1hrfQqbq9LfWdjJVYaLUCVs=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_popup_close@3x.png</key>
+		<data>
+		HuhlK8em+DJRUvvvX+nbxli8fmw=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_reply_close_btn@2x.png</key>
+		<data>
+		t56ERPWfM1IBD8wKGwKshpVVp6s=
+		</data>
+		<key>WatchResource.bundle/plvec_chatroom_reply_close_btn@3x.png</key>
+		<data>
+		XpbZsax1K9wsSJrhHUtfhv+fRVI=
+		</data>
+		<key>WatchResource.bundle/plvec_home_giftbox_btn@2x.png</key>
+		<data>
+		wvJ3HA5cXfk5lLJ1xfMpTj+dOjA=
+		</data>
+		<key>WatchResource.bundle/plvec_home_giftbox_btn@3x.png</key>
+		<data>
+		tFoKRApAzny3HXp8W+UDW6pleAU=
+		</data>
+		<key>WatchResource.bundle/plvec_home_redpack_btn@2x.png</key>
+		<data>
+		en7Du8SiGlQUxOoMcnooG9tA8Pg=
+		</data>
+		<key>WatchResource.bundle/plvec_home_redpack_btn@3x.png</key>
+		<data>
+		9X0AryNwVwqXoKJ0VVGV1CgpnHw=
+		</data>
+		<key>WatchResource.bundle/plvec_iarentrance_questionnaire@2x.png</key>
+		<data>
+		xBM1BIsHiV29rB0IaN1MW6/igAw=
+		</data>
+		<key>WatchResource.bundle/plvec_iarentrance_questionnaire@3x.png</key>
+		<data>
+		7qY1wDcPAIq6OhAf9Dd6Iggic8c=
+		</data>
 		<key>WatchResource.bundle/plvec_linkmic_window_pauseWatchNoDelay_placeholder@2x.png</key>
 		<data>
 		PuB3Aa3rl6AI87kDU3/sO9AggbQ=
@@ -1685,6 +2033,116 @@
 			IrAQ+1xR3vOgfkzaBUQJIzstq1sYvG16kwvifWTZ1XQ=
 			</data>
 		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_doc_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			idlW3I0m4dRvt1F9O0x0yuStBGo=
+			</data>
+			<key>hash2</key>
+			<data>
+			7EWd55gKUYRuPINjdlUgox5ISUVyGyoKK1F3Rh/UpCU=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_doc_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gKaPvhXcDL9gn80Yh81vXz34Mhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			vsUKEnPyl5qQ/h2o958BI1ZBab0byfyl3DAwAY0XBT8=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_pdf_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LUu+3p079zyS6iqnPp/bpj7qxvE=
+			</data>
+			<key>hash2</key>
+			<data>
+			SbQaDrfx5pd5dbl4hEp3CRkdk8SlOd9b8u141BXxCkQ=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_pdf_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qQXEApuwwvDVSNg0W9DDvT7GpJo=
+			</data>
+			<key>hash2</key>
+			<data>
+			jYDWgjjB/uRaFtp8yW7AEhzd6LGIwrk9WMcd56VgFxc=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_ppt_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			003fgJuOG/ygxfK+o66GzqUGJmo=
+			</data>
+			<key>hash2</key>
+			<data>
+			N7lA/6rHCTpViDbgRQB0vINFlKNIZjeKNhmmk4TJ2Aw=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_ppt_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5mBFsQsH1zMR6RBw1vqR5GzVrXU=
+			</data>
+			<key>hash2</key>
+			<data>
+			zQIqp8qBXi+sbqnJIhX4lZOiamwkzh06XQjnQE4iRXw=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_xls_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dobHp7a4rqq+5Z9snkYG0iAM//g=
+			</data>
+			<key>hash2</key>
+			<data>
+			wfCROjz4hlUQsYTF1ODlHy0d5sbPCsloZ4O6tOdZDIc=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_file_xls_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YNuy/S3vAAJ2YFA974yP+pzAscY=
+			</data>
+			<key>hash2</key>
+			<data>
+			NmPNauIo4De86ja3zA4CvfzlhGbUaTqDGPPwySBg5x4=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_giftbox@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wvJ3HA5cXfk5lLJ1xfMpTj+dOjA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kOnxMYpgKj4H0JgB+tt6fPUPUMOBwsUCL+HbFxQZwsw=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_giftbox@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tFoKRApAzny3HXp8W+UDW6pleAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ccZZhVd5aCwGTiqK8LsM0p5OAzKdI1uxgs77ekRITIw=
+			</data>
+		</dict>
 		<key>PLVChatroom.bundle/plvlc_chatroom_like@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -1861,6 +2319,50 @@
 			WU8nGkoJHaoVsSyIY2hTwFSqmc3Af5nNGXDdXFIP0hs=
 			</data>
 		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_popup_close@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7zgz1hrfQqbq9LfWdjJVYaLUCVs=
+			</data>
+			<key>hash2</key>
+			<data>
+			ULI6tMn73JCs5IKdKyYLct3GNPizdp1BMwXFgI73YPg=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_popup_close@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HuhlK8em+DJRUvvvX+nbxli8fmw=
+			</data>
+			<key>hash2</key>
+			<data>
+			mVAqLvZ8zzNAhzYtxNs4cGn8LTeq3wpd2gER/RHLjdY=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_redpack@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			en7Du8SiGlQUxOoMcnooG9tA8Pg=
+			</data>
+			<key>hash2</key>
+			<data>
+			d2+oUyPxGMP9BM14D1WZ/ybNmzLJcTkYvE0ETqUwMt8=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_redpack@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9X0AryNwVwqXoKJ0VVGV1CgpnHw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7vd0CnF9hmhv1vv9NuEKpeuxqE4ZNXvoHiHGrBLA3Fs=
+			</data>
+		</dict>
 		<key>PLVChatroom.bundle/plvlc_chatroom_refresh@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -1881,6 +2383,28 @@
 			<key>hash2</key>
 			<data>
 			OW4km6bagRZJClJuRSeh5OskV75VhU15PVP1DZyZuGI=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_reply_close_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XngBucBYtls1DIhzSisr9eZyd0Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			fJNZq1muRp2R8Nc9KhuMzIc1jcvNNk73l5KzZC832tA=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_chatroom_reply_close_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BdHcCVjKmTFitsPEilW5tgD+We8=
+			</data>
+			<key>hash2</key>
+			<data>
+			MjQXtbUptiDBf7kNTo08RaFcr3wuN5POOBmkTydfMQg=
 			</data>
 		</dict>
 		<key>PLVChatroom.bundle/plvlc_chatroom_stars_left@2x.png</key>
@@ -1925,6 +2449,28 @@
 			<key>hash2</key>
 			<data>
 			mikD0SpZzTWGbfLbenL370/yZcQIEWZV1nyYngfoiZc=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_iarentrance_questionnaire@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xBM1BIsHiV29rB0IaN1MW6/igAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			2LzNfvdftuyTjTs3OTwPDo3tfIEXJ/tMgjixL9qfW9k=
+			</data>
+		</dict>
+		<key>PLVChatroom.bundle/plvlc_iarentrance_questionnaire@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7qY1wDcPAIq6OhAf9Dd6Iggic8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			2i6KIaOwMPvbgszEfvvgkbElgTdEgaZx1OlUVj+Drrw=
 			</data>
 		</dict>
 		<key>PLVChatroom.bundle/plvlc_keyboard_album@2x.png</key>
@@ -2255,6 +2801,94 @@
 			<key>hash2</key>
 			<data>
 			E49yr2zcL3H2gB9KeDgvyBtX6QbplK0hJp9LwvUekls=
+			</data>
+		</dict>
+		<key>PLVCommodity.bundle/plv_commodity_jump_normal_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hkaa2PnZXSDKoLxGqRYVnEl6qaE=
+			</data>
+			<key>hash2</key>
+			<data>
+			xkfM9dd1U1/PeSVdWcuplaJ8F8l+fClkSoob5SXFvdY=
+			</data>
+		</dict>
+		<key>PLVCommodity.bundle/plv_commodity_jump_normal_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TSx5i6FDpm4S+JF4D1trYh6OhNI=
+			</data>
+			<key>hash2</key>
+			<data>
+			49YCb9YkhDeQwu15J/xycOC3Q1/xT29EwjToNHHwg4o=
+			</data>
+		</dict>
+		<key>PLVCommodity.bundle/plv_commodity_webview_close_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vpHwG0eEAjKDHEeStP+FYCVfNjQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			tC3iX5XjVpZS7fPSwpDLGiGQrXPmK1hkjdx3LV4JCy4=
+			</data>
+		</dict>
+		<key>PLVCommodity.bundle/plv_commodity_webview_close_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OOqo1xuroniPfzDo1sBXQOrxmrc=
+			</data>
+			<key>hash2</key>
+			<data>
+			a+Eu+2T6D3EM9un8Rsf7ohTGD3fEetSU6EB6WuSUyE4=
+			</data>
+		</dict>
+		<key>PLVCommodity.bundle/plv_commodity_webview_leftBack_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Awhb16Tg4Qj1etybazGZd3Gw9UM=
+			</data>
+			<key>hash2</key>
+			<data>
+			VmCAuE5kpX1GSDMZ7XBIzjmrHQLcvRS4H4rMBBZXwGk=
+			</data>
+		</dict>
+		<key>PLVCommodity.bundle/plv_commodity_webview_leftBack_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9Bc/VA/oZRTXK52zBKdSUyNHAjE=
+			</data>
+			<key>hash2</key>
+			<data>
+			APt3A1iQ5fZ+DMidkU8Ssg6Tyh26cmv7PfwBwcBYK1E=
+			</data>
+		</dict>
+		<key>PLVDefaultPageView.bundle/plv_default_page_view_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t6Jbhhhd8VncFw0MDrboGLwHwyQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			PN2pRqqMc7eC+lwlX9EE/mSS/pt7TpoMLyInVJzx02Q=
+			</data>
+		</dict>
+		<key>PLVDefaultPageView.bundle/plv_default_page_view_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lmyu3cXxjucu4kEtzlPiQbQBWKI=
+			</data>
+			<key>hash2</key>
+			<data>
+			5y5vzJ2bJJghzjRa4AKTA5pbgUvmkw1W0qMcRRlo0L0=
 			</data>
 		</dict>
 		<key>PLVEmoticon.plist</key>
@@ -2796,6 +3430,17 @@
 			ao60QqS+wLYeBVn1W5hpJvA3+QUb8ooodOE4ivB/V9w=
 			</data>
 		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_invitation_bgm.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8UGOuYg8/gjwm/zWickWZhS5zO8=
+			</data>
+			<key>hash2</key>
+			<data>
+			cVzd1LWutdiWyVBepXxpaxNDD1EncUK7MDuz9HOnQhk=
+			</data>
+		</dict>
 		<key>PLVLinkMic.bundle/plvlc_linkmic_mic_close@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -3170,6 +3815,116 @@
 			MPNjjO4oOSzoYGTdkK0mLS45sy5xYBlIvoONeqjZYM8=
 			</data>
 		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_close@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UNFm39hbTpw5BE08VcORA4gPI9Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			sUJO8ookFA749rEtDzf7gCEo3O/hxkSO/d43ORZuAo0=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_close@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KLVtf24/1jmNdJbRv5Ssvv+5sP8=
+			</data>
+			<key>hash2</key>
+			<data>
+			/KkSRe0MaHrFOuj42/PPtKP5a7xRlnTIcpXEd6RUC5Q=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			udY9VKqOH2zboqVcX2ovMJpU6TI=
+			</data>
+			<key>hash2</key>
+			<data>
+			oKMcFmcriVkCiKpePvu3sn4hNGbny0MZFVJt0s/bR7o=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_camera_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rJvJfrV9fER2st/7mR/PVJFqoNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			7IiK0L+6YulKE5rZDLfaygzlJI4rj5x2iwbGwC91WTE=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_mic_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E576sepUJP83hkF0pha8/u5tdVk=
+			</data>
+			<key>hash2</key>
+			<data>
+			NrJfIaV70OsIC2KpeYfCDPCPhVeYHXRxs+GKEx0ze3A=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_mic_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ho9jDHnxfSk+EZT+gUooOtD7utg=
+			</data>
+			<key>hash2</key>
+			<data>
+			QRovjy827Ap6wwP80nX+ktIYLI2NXah47ua6DELyvGk=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_onlyaudio_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vJDL5GCChySDU01J+i0hCg94xQQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			CyZVrJjdK6zFUJQjimY3yUaV5zMVeLc7lIfqQ+/IXrw=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_onlyaudio_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GQoDeIbOcUOQiX1VGGBP94YUBG4=
+			</data>
+			<key>hash2</key>
+			<data>
+			V/G3MzI/KNo4ngaYMf7p+cVX4uQgnEE+Bo/C7iULREc=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_tips_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0rimWHL/X31jViSGS8m/a3yhrGs=
+			</data>
+			<key>hash2</key>
+			<data>
+			HMQpyZZsB5y7XvEh5zfkES15oalWK5GIU0g05jET3Cc=
+			</data>
+		</dict>
+		<key>PLVLinkMic.bundle/plvlc_linkmic_pre_tips_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TIayCChFqPGwaTy5+zR2/SDOvpM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z2rGh7kCych3Tjfi+cdvWWKD6CBKUHXQ9mka0AHabUI=
+			</data>
+		</dict>
 		<key>PLVLinkMic.bundle/plvlc_linkmic_setting@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -3289,6 +4044,28 @@
 			<key>hash2</key>
 			<data>
 			c5loximWBwb7m/KtuD/xT7TUNV6P7Nx9QCtiQfJRQ4U=
+			</data>
+		</dict>
+		<key>PLVLiveRoom.bundle/plv_liveroom_commodity@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WewOUXXFxnzgyRU+2aufDI2IveA=
+			</data>
+			<key>hash2</key>
+			<data>
+			u57YxwVEtcGTUbX1OQhfn1sWzG5geSC2DNEOVtBrXLs=
+			</data>
+		</dict>
+		<key>PLVLiveRoom.bundle/plv_liveroom_commodity@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m1MI5IyBEuV5w6czBc/5BqzbR14=
+			</data>
+			<key>hash2</key>
+			<data>
+			tYywqUqRT5AkZzs8z49Nd7Vb/WdN0uk2wdTvPQqPGgk=
 			</data>
 		</dict>
 		<key>PLVLiveRoom.bundle/plv_liveroom_reward@2x.png</key>
@@ -3423,6 +4200,28 @@
 			PNkJ/9SaBTCSKAP+j0/GJW8yP7fqq0nmiNA2+zxeej4=
 			</data>
 		</dict>
+		<key>PLVLiveRoom.bundle/plvlc_liveroom_reply_close_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t56ERPWfM1IBD8wKGwKshpVVp6s=
+			</data>
+			<key>hash2</key>
+			<data>
+			q13HiAwruCLqMs3c9Jr0V29aYuaTvybW4JQfvUISlUo=
+			</data>
+		</dict>
+		<key>PLVLiveRoom.bundle/plvlc_liveroom_reply_close_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XpbZsax1K9wsSJrhHUtfhv+fRVI=
+			</data>
+			<key>hash2</key>
+			<data>
+			0sf6TO3k+VsZUPjH3nWtyMYb0aFKGAIQBiEXaWKp4bc=
+			</data>
+		</dict>
 		<key>PLVMedia.bundle/plvlc_media_audio_placeholder@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -3443,6 +4242,182 @@
 			<key>hash2</key>
 			<data>
 			pA9OEB/GsRw5JZW59AFuyM3BMzzR8YVrUHTcspPeLE0=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_arrow_normal@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E8/SzQmZ7aixcnRR558XGDhicEE=
+			</data>
+			<key>hash2</key>
+			<data>
+			uNNfwuJr11aHZJuYXmuG7eZlp61T4eJWLTv6VrWgxoQ=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_arrow_normal@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k2MrL/ocyWI1X9BF8ZQPStEXv2s=
+			</data>
+			<key>hash2</key>
+			<data>
+			MvyUU+DJ6JRWsE4fIP0Cs2+ElMqP7eQvfLjKrDUzF6Y=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_clear@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kb1DzzjiDnr0PYgso3Sq+nE6xLs=
+			</data>
+			<key>hash2</key>
+			<data>
+			OzX9sXB1cSTQJQsAg46hbBxWsnfjhuGmuCJ0Pa28Gy8=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_clear@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0p5FwfDJ7Yf7NYYD2HTpN/I3ais=
+			</data>
+			<key>hash2</key>
+			<data>
+			1NlYNvVWtV0QAeYrr1L8GmbxHpMQG/PfR7voTJE7FOo=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_eraser_normal@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lV+gt9HVPZPmmJEXvHVs8xFCHEg=
+			</data>
+			<key>hash2</key>
+			<data>
+			+rqJ/HOcvXRy142Gi0L6pvLx/V1WYqlg4TPvuRCjEfs=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_eraser_normal@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4J+P4OiDTrWcR4zws2vjcbVvkmI=
+			</data>
+			<key>hash2</key>
+			<data>
+			FLRVdu/V5ak9caH1siKcHGDxLbqV878fn95kcYJbtaQ=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_freeline_normal@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7BPvBwZGnWO18PDI9kI5YRA1ox4=
+			</data>
+			<key>hash2</key>
+			<data>
+			dw9bM9tZF3YTO/TSAkuAIJtbqMdbVaBQ5P8MPnnO/vw=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_freeline_normal@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cyJY7LOGNGfQK4om7DbJLN9GIOU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ya2xfI03XbaYNnqJT1aV9aaoUHC2EP+fgnhWD0cOt3c=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_more@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9u4A6QZVRA+qc/0wDv695V4KiNI=
+			</data>
+			<key>hash2</key>
+			<data>
+			eCBchBpg02SL7zIXg7JYm69xXdWS6Ms2pAyaiqmcQHQ=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_more@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OY12yADRc0KWOAWBfR3X+Q0XBXA=
+			</data>
+			<key>hash2</key>
+			<data>
+			SnKrDmVNGX/Ba6IS9MHf7BVJylU1hQZX7iBcdUep9N0=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_rect_normal@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G/key4Zc7Kc+dtiXCOGRHUiSsls=
+			</data>
+			<key>hash2</key>
+			<data>
+			qbs9LZlHbrw8q6A2BIo9C/n2zEzvCGqLcLV5eBg+Gg4=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_rect_normal@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ilCHUNV8NOqRE266RtmNWtQTiII=
+			</data>
+			<key>hash2</key>
+			<data>
+			RRxT3TjXoL6LW6Bydkn/jvtlFczaa88E0KmIZKXf7NQ=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_revoke@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4JMNIIcgwnGYSMXAHYd+FQv3Qcw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3uOLG1GBB65TZdzSAdjjPhAl2sSYQEKArcv9oBSoSZo=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_revoke@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZIJi77cywM44y05n1egEtYKHrV4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+NwKt5KAbl2/G33rIUuwnypXZWexZYbqfaiuorii2E8=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_text_normal@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eltQx3MHZ9E/GPdk9dQ8faTwEfU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ni80sJLaM1uro329JMuJImn/skERk76mMhZBlOGX+IQ=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_brush_btn_text_normal@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WpO7Udw7HugH+f9RUQoLgHASkR0=
+			</data>
+			<key>hash2</key>
+			<data>
+			h8ov9ZooKSY2dEZj5eNjsM7t5aBdUOGbnApeWbxe4TI=
 			</data>
 		</dict>
 		<key>PLVMedia.bundle/plvlc_media_close_btn@2x.png</key>
@@ -3599,6 +4574,28 @@
 			SLW5aE5fEg1eIdDuZvyosTzWKs/h/MraYoHJt56smo8=
 			</data>
 		</dict>
+		<key>PLVMedia.bundle/plvlc_media_paint_exit@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8JmSoi9PVjoVxyVplmRvUFNAj+Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZAsmbDW5llp1cOd/sSVkNJrLjFMYxbni5JHlOGJ21Yg=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_paint_exit@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sFRQF1Tbf6ND7tK13qTQfjBijfg=
+			</data>
+			<key>hash2</key>
+			<data>
+			DMlKJx22BDXtF1aIImeeq/wa+u3o8LQEjMesgk+GjSc=
+			</data>
+		</dict>
 		<key>PLVMedia.bundle/plvlc_media_ppt_placeholder@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -3751,6 +4748,28 @@
 			<key>hash2</key>
 			<data>
 			nQMjfhSkC8DhdRnHUS2uYxLGOT7lHZemdh2adyj4084=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_skin_paint@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1E46iTh0Gc2GMYOeh4sZo06xncM=
+			</data>
+			<key>hash2</key>
+			<data>
+			9jWBS+/mR0HK8hHlxWq4JU0hvvm/SFNcn3rLtvp98Jc=
+			</data>
+		</dict>
+		<key>PLVMedia.bundle/plvlc_media_skin_paint@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oBYH50lk4lJVXZRbL84o5hISWAE=
+			</data>
+			<key>hash2</key>
+			<data>
+			CsRMHJJJEAyWk7a52LhGnJpYiZM2eUmcyp2p/4yrltk=
 			</data>
 		</dict>
 		<key>PLVMedia.bundle/plvlc_media_skin_pause@2x.png</key>
@@ -4290,6 +5309,94 @@
 			<key>hash2</key>
 			<data>
 			nbRQ3wKYfmKy0n1Mf1B1VitUuN2cujLZ4fvNu9HbP/M=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_copylink_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lv/jjsYBGp9z3FOIpa5Kc01eJS8=
+			</data>
+			<key>hash2</key>
+			<data>
+			xskks3EfgIMdEft82xYAkAhLulZlsBgkslZKaLT2FsU=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_copylink_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5jjkEIYOOZPzwtIZhBqiJdVxjug=
+			</data>
+			<key>hash2</key>
+			<data>
+			5HwWErfTChi5kYLCW8Hgktxr01G7+M9+BcHSVu5HfQ8=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_savepicture_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ONe9EZueJdcQun1W5VyqZnjPMM8=
+			</data>
+			<key>hash2</key>
+			<data>
+			+D1y3qOgEquYbcccX0qteVTPGXhOaaa90MZvSonX71g=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_savepicture_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ht269mqiy/QfVJ13CzWImQ6Gcqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			K1Ph6uWopZs3QWOQFXlQSSMc+V3cWpn/hu6+UEonFcw=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_wxsession_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bs1rSGbW9fixc0Sq/r0sOiLsHvE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5d+Foi/nAFIkpoSx2gYs8itTh4pc+fcV2mu+BEzEv3I=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_wxsession_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fhBSRDu9BDhr63si2c8z3pAOpJ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			eTMjNwBFfugeei4ex1RshRDVLtjJ/AwXEU/fm56KKSU=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_wxtimeline_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VVsLfk0yXsIld1tePQTJ0oivwhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			O8/qtEwsyJ9D7p6kwTJIOZjCRGa2mnwmw5G/G/+pgug=
+			</data>
+		</dict>
+		<key>PLVShare.bundle/plv_share_wxtimeline_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			10Kwd85NwGeCze/Xafbqu5aEKfM=
+			</data>
+			<key>hash2</key>
+			<data>
+			m54eNEr05LsQqlgAOl22CwLtPvNbBvxBmZhXV0R4VZY=
 			</data>
 		</dict>
 		<key>WatchResource.bundle/plv_audioSwitch_btn@2x.png</key>
@@ -5357,6 +6464,204 @@
 			<key>hash2</key>
 			<data>
 			t9icrMjHmAa8F4fOEBCmuNOv8OD59JJ6ygedJ2QwhoA=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_doc_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			idlW3I0m4dRvt1F9O0x0yuStBGo=
+			</data>
+			<key>hash2</key>
+			<data>
+			7EWd55gKUYRuPINjdlUgox5ISUVyGyoKK1F3Rh/UpCU=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_doc_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gKaPvhXcDL9gn80Yh81vXz34Mhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			vsUKEnPyl5qQ/h2o958BI1ZBab0byfyl3DAwAY0XBT8=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_pdf_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LUu+3p079zyS6iqnPp/bpj7qxvE=
+			</data>
+			<key>hash2</key>
+			<data>
+			SbQaDrfx5pd5dbl4hEp3CRkdk8SlOd9b8u141BXxCkQ=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_pdf_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qQXEApuwwvDVSNg0W9DDvT7GpJo=
+			</data>
+			<key>hash2</key>
+			<data>
+			jYDWgjjB/uRaFtp8yW7AEhzd6LGIwrk9WMcd56VgFxc=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_ppt_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			003fgJuOG/ygxfK+o66GzqUGJmo=
+			</data>
+			<key>hash2</key>
+			<data>
+			N7lA/6rHCTpViDbgRQB0vINFlKNIZjeKNhmmk4TJ2Aw=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_ppt_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5mBFsQsH1zMR6RBw1vqR5GzVrXU=
+			</data>
+			<key>hash2</key>
+			<data>
+			zQIqp8qBXi+sbqnJIhX4lZOiamwkzh06XQjnQE4iRXw=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_xls_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dobHp7a4rqq+5Z9snkYG0iAM//g=
+			</data>
+			<key>hash2</key>
+			<data>
+			wfCROjz4hlUQsYTF1ODlHy0d5sbPCsloZ4O6tOdZDIc=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_file_xls_icon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YNuy/S3vAAJ2YFA974yP+pzAscY=
+			</data>
+			<key>hash2</key>
+			<data>
+			NmPNauIo4De86ja3zA4CvfzlhGbUaTqDGPPwySBg5x4=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_popup_close@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7zgz1hrfQqbq9LfWdjJVYaLUCVs=
+			</data>
+			<key>hash2</key>
+			<data>
+			ULI6tMn73JCs5IKdKyYLct3GNPizdp1BMwXFgI73YPg=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_popup_close@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HuhlK8em+DJRUvvvX+nbxli8fmw=
+			</data>
+			<key>hash2</key>
+			<data>
+			mVAqLvZ8zzNAhzYtxNs4cGn8LTeq3wpd2gER/RHLjdY=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_reply_close_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t56ERPWfM1IBD8wKGwKshpVVp6s=
+			</data>
+			<key>hash2</key>
+			<data>
+			q13HiAwruCLqMs3c9Jr0V29aYuaTvybW4JQfvUISlUo=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_chatroom_reply_close_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XpbZsax1K9wsSJrhHUtfhv+fRVI=
+			</data>
+			<key>hash2</key>
+			<data>
+			0sf6TO3k+VsZUPjH3nWtyMYb0aFKGAIQBiEXaWKp4bc=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_home_giftbox_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wvJ3HA5cXfk5lLJ1xfMpTj+dOjA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kOnxMYpgKj4H0JgB+tt6fPUPUMOBwsUCL+HbFxQZwsw=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_home_giftbox_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tFoKRApAzny3HXp8W+UDW6pleAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ccZZhVd5aCwGTiqK8LsM0p5OAzKdI1uxgs77ekRITIw=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_home_redpack_btn@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			en7Du8SiGlQUxOoMcnooG9tA8Pg=
+			</data>
+			<key>hash2</key>
+			<data>
+			d2+oUyPxGMP9BM14D1WZ/ybNmzLJcTkYvE0ETqUwMt8=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_home_redpack_btn@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9X0AryNwVwqXoKJ0VVGV1CgpnHw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7vd0CnF9hmhv1vv9NuEKpeuxqE4ZNXvoHiHGrBLA3Fs=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_iarentrance_questionnaire@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xBM1BIsHiV29rB0IaN1MW6/igAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			2LzNfvdftuyTjTs3OTwPDo3tfIEXJ/tMgjixL9qfW9k=
+			</data>
+		</dict>
+		<key>WatchResource.bundle/plvec_iarentrance_questionnaire@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7qY1wDcPAIq6OhAf9Dd6Iggic8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			2i6KIaOwMPvbgszEfvvgkbElgTdEgaZx1OlUVj+Drrw=
 			</data>
 		</dict>
 		<key>WatchResource.bundle/plvec_linkmic_window_pauseWatchNoDelay_placeholder@2x.png</key>

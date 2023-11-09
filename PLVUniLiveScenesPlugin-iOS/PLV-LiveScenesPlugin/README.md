@@ -21,7 +21,7 @@
   * iOS离线工程 [uniapp-livescenes-ios](https://github.com/polyv/polyv-uniapp-livescenes-plugin) ；
   * android离线工程[uniapp-livescenes-android](https://github.com/polyv/polyv-uniapp-livescenes-plugin)
   
-* **Android端需要同时集成[Polyv播放器插件-Android ](https://ext.dcloud.net.cn/plugin?id=4798)和 [Polyv弹幕库插件-Android](https://ext.dcloud.net.cn/plugin?id=4947)，如果[Polyv播放器插件-Android ](https://ext.dcloud.net.cn/plugin?id=4798)和VideoPlayer同时集成，就要去掉弹幕库**；
+* **Android端需要同时集成[Polyv播放器插件 ](https://ext.dcloud.net.cn/plugin?id=4798)和 [Polyv弹幕库插件-Android](https://ext.dcloud.net.cn/plugin?id=4947)，如果[Polyv播放器插件-Android ](https://ext.dcloud.net.cn/plugin?id=4798)和VideoPlayer同时集成，就要去掉弹幕库**；
 
   ```
   .方案一
@@ -35,6 +35,26 @@
   ```
 
 * **iOS 端自0.1.0+需要同时集成 [Polyv UTDID 插件-iOS](https://ext.dcloud.net.cn/plugin?id=7750)。如果本插件同时集成了 支付模块的支付宝支付 则不需要集成 [Polyv UTDID 插件-iOS] 插件**
+
+* **iOS 端自0.2.1+需要同时集成[Polyv播放器插件 ](https://ext.dcloud.net.cn/plugin?id=4798)。**
+
+* **iOS 端使用到了后台音频播放和画中画的功能，因此打包时需要在 manifest.json 中进行权限配置，可通过 manifest.json 中最下面的源码视图添加权限配置**
+
+  ```
+  {  
+  "app-plus" : {  
+          /* 应用发布信息 */  
+          "distribute" : {  
+              /* ios打包配置 */  
+              "ios" : {  
+                  "UIBackgroundModes" : [ "audio"] // 数组，支持多个  
+              },  
+          }  
+      }  
+  }
+  ```
+
+  详细可以参考官方文档：https://nativesupport.dcloud.net.cn/NativePlugin/course/package?id=background-modes 和 https://ask.dcloud.net.cn/article/36430
 
 * **为防止APP端被嗅探和反编译到开发者配置信息，强烈建议开发者设计自己的加密方式在服务端对 `userId`、 `AppID`、 `AppSecret`进行加密，并通过https协议的接口获取后重新解密，再将参数传递给SDK。**
 
@@ -140,7 +160,25 @@ configModule.setMarqueeConfig({
 
 playModule 封装了云课堂、直播带货的直播和回放功能。
 
-###### 3. loginLiveRoom
+###### 4. showFullScreenButtonOnIPad
+
+是否在iPad上显示全屏按钮（仅在iPad云课堂场景），需要在进入房间前调用
+
+方法：`showFullScreenButtonOnIPad()`
+
+示例：
+
+```
+playModule.showFullScreenButtonOnIPad({show:true});
+```
+
+**参数：**
+
+| 名称          | 类型                               | 说明 |
+| :------------ | :--------------------------------- | :--- |
+| show `(必需)` | Bool(true 显示全屏按钮，false显示) |      |
+
+###### 5. loginLiveRoom
 
 直播登录（云课堂场景，带货直播场景登录）
 
@@ -148,23 +186,27 @@ playModule 封装了云课堂、直播带货的直播和回放功能。
 
 示例：
 
-```vue
+```javascript
 // 直播
 playModule.loginLiveRoom(1, {
-	channelId: ""
+	channelId: "",
+	liveParam4: "",
+	liveParam5: ""
 }, (result) => {
 });
 ```
 
 **参数：**
 
-| 名称                     | 类型                                       | 说明                                         |
-| :----------------------- | :----------------------------------------- | :------------------------------------------- |
-| sceneType `(必需)`       | Number(1云课堂场景, 2直播带货场景)         | 直播室类型                                   |
-| params.channelId`(必需)` | String                                     | 直播的频道号                                 |
-| callback                 | function `{"isSuccess": 0, @"errMsg": ""}` | 执行结果的callback，返回是否成功的状态和描述 |
+| 名称                        | 类型                                       | 说明                                         |
+| :-------------------------- | :----------------------------------------- | :------------------------------------------- |
+| sceneType `(必需)`          | Number(1云课堂场景, 2直播带货场景)         | 直播室类型                                   |
+| params.channelId`(必需)`    | String                                     | 直播的频道号                                 |
+| params.liveParam4`(非必需)` |                                            |                                              |
+| params.liveParam5`(非必需)` |                                            |                                              |
+| callback                    | function `{"isSuccess": 0, @"errMsg": ""}` | 执行结果的callback，返回是否成功的状态和描述 |
 
-###### 4. loginPlaybackRoom
+###### 6. loginPlaybackRoom
 
 登录回放直播间（云课堂，带货直播回放登录）
 
@@ -172,9 +214,11 @@ playModule.loginLiveRoom(1, {
 
 示例：
 
-```
+```javascript
 playModule.loginPlaybackRoom(0, {
 	channlId: "",
+	liveParam4: "",
+	liveParam5: "",
 	videoId: "",
 	vodType: 0
 }, (result) => {
@@ -183,10 +227,12 @@ playModule.loginPlaybackRoom(0, {
 
 **参数：**
 
-| 名称                     | 类型                                       | 说明                                         |
-| :----------------------- | :----------------------------------------- | :------------------------------------------- |
-| sceneType `(必需)`       | Number(1云课堂场景, 2直播带货场景)         | 直播室类型                                   |
-| params.channelId`(必需)` | String                                     | 直播的频道号                                 |
-| params.videoId`(必需)`   | String                                     | 回放视频id                                   |
-| params.vodType`(必需)`   | Number 0回放视频 1回放列表                 |                                              |
-| callback                 | function `{"isSuccess": 0, @"errMsg": ""}` | 执行结果的callback，返回是否成功的状态和描述 |
+| 名称                        | 类型                                       | 说明                                         |
+| :-------------------------- | :----------------------------------------- | :------------------------------------------- |
+| sceneType `(必需)`          | Number(1云课堂场景, 2直播带货场景)         | 直播室类型                                   |
+| params.channelId`(必需)`    | String                                     | 直播的频道号                                 |
+| params.liveParam4`(非必需)` |                                            |                                              |
+| params.liveParam5`(非必需)` |                                            |                                              |
+| params.videoId`(必需)`      | String                                     | 回放视频id                                   |
+| params.vodType`(必需)`      | Number 0回放视频 1回放列表                 |                                              |
+| callback                    | function `{"isSuccess": 0, @"errMsg": ""}` | 执行结果的callback，返回是否成功的状态和描述 |

@@ -5,13 +5,12 @@ target 'HBuilder-LiveScenes' do
   use_frameworks!
 
   # 保利威 多场景 SDK
-  pod 'PLVLiveScenesSDK', '~> 1.10.2', :subspecs => ['BaseSDK', 'Core']
+  pod 'PLVLiveScenesSDK', '~> 1.10.7', :subspecs => ['BaseSDK', 'Core']
   pod 'AgoraRtcEngine_iOS', '3.6.0.1'
   pod 'PLVSocketIOClientSwift', '~> 0.1.0'
   pod 'UCloudRtcSdk', '1.9.2.9'
   pod 'TXLiteAVSDK_TRTC', '9.3.10763'
   pod 'SSZipArchive', '2.1.5'
-  pod 'PLVIJKPlayer', '0.12.0'
 
   pod "AliyunOSSiOS", "~> 2.10.8"
   # 移除 aliyun UTDID 依赖方式
