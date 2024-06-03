@@ -1,28 +1,44 @@
  # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'HBuilder-LiveScenes' do
   use_frameworks!
-
+  
   # 保利威 多场景 SDK
-  pod 'PLVLiveScenesSDK', '~> 1.10.7', :subspecs => ['BaseSDK', 'Core']
-  pod 'AgoraRtcEngine_iOS', '3.6.0.1'
+  pod 'PLVLiveScenesSDK', '1.17.1', :subspecs => ['BaseSDK', 'Core']
+  pod 'AgoraRtcEngine_Special_iOS', '3.7.2.238'
+  pod 'TXLiteAVSDK_TRTC', '11.4.14546'
+  pod 'PLVVolcEngineRTCExt', '3.41.301'
   pod 'PLVSocketIOClientSwift', '~> 0.1.0'
-  pod 'UCloudRtcSdk', '1.9.2.9'
-  pod 'TXLiteAVSDK_TRTC', '9.3.10763'
-  pod 'SSZipArchive', '2.1.5'
-
   pod "AliyunOSSiOS", "~> 2.10.8"
   # 移除 aliyun UTDID 依赖方式
   pod 'PLVAliHttpDNS', '~> 1.10.0', :subspecs => ['AlicloudHttpDNS', 'AlicloudUtils']
   pod "PLVModel", "~> 1.0.4"
-  pod 'WCDB', '~> 1.0.6'
-  pod 'PLVIJKPlayer', '~> 0.12.0' #同步点播播放器版本
+  pod "PLVFDB", "~> 1.0.5"
+  pod 'SSZipArchive', '2.1.5'
+
+  # 同步点播播放器版本
+  pod 'PLVIJKPlayer', '0.13.3'
+
+  # SM2 加密
+  pod 'PLVLOpenSSL', '~> 1.1.12100'
+  pod 'PLVFoundationSDK', '1.17.1', :subspecs => ['CryptoUtils']
   
   # 保利威 UI源码 需依赖的库
   pod 'SDWebImage', '4.4.0'
   pod 'MJRefresh', '~> 3.5.0'
   pod 'PLVImagePickerController', '~> 0.1.2' # 仅手机开播场景需要
+  pod 'Protobuf', '3.22.4'
   pod 'SVGAPlayer', '~> 2.3'
   
+end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+         end
+    end
+  end
 end

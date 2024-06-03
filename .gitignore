@@ -161,3 +161,5 @@ contents.xcworkspacedata
 
 # End of https://www.gitignore.io/api/xcode,swift,macos,cocoapods,objective-c
 
+.gitignore
+.idea
