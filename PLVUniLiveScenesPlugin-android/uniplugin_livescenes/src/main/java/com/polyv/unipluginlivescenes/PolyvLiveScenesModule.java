@@ -67,11 +67,12 @@ public class PolyvLiveScenesModule extends WXModule {
             @Override
             public void onLoginSuccess(PLVLiveLoginResult plvLiveLoginResult) {
                 PLVLiveChannelType channelType = plvLiveLoginResult.getChannelTypeNew();
+                String langType = plvLiveLoginResult.getLangType();
                 switch (curScene) {
                     //进入云课堂场景
                     case CLOUDCLASS:
                         if (PLVLiveScene.isCloudClassSceneSupportType(channelType)) {
-                            PLVLaunchResult launchResult = PLVLCCloudClassActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, channelType, viewerId, nickName, viewerAvatar, liveParam4, liveParam5);
+                            PLVLaunchResult launchResult = PLVLCCloudClassActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, channelType, viewerId, nickName, viewerAvatar, liveParam4, liveParam5, langType);
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
                             } else {
@@ -86,7 +87,7 @@ public class PolyvLiveScenesModule extends WXModule {
                     //进入直播带货场景
                     case ECOMMERCE:
                         if (PLVLiveScene.isLiveEcommerceSceneSupportType(channelType)) {
-                            PLVLaunchResult launchResult = PLVECLiveEcommerceActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, viewerId, nickName, viewerAvatar, liveParam4, liveParam5);
+                            PLVLaunchResult launchResult = PLVECLiveEcommerceActivity.launchLive((Activity) mWXSDKInstance.getContext(), channelId, channelType, viewerId, nickName, viewerAvatar, liveParam4, liveParam5, langType);
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
                             } else {
@@ -140,13 +141,14 @@ public class PolyvLiveScenesModule extends WXModule {
             @Override
             public void onLoginSuccess(PLVPlaybackLoginResult plvPlaybackLoginResult) {
                 PLVLiveChannelType channelType = plvPlaybackLoginResult.getChannelTypeNew();
+                String langType = plvPlaybackLoginResult.getLangType();
                 switch (curScene) {
                     //进入云课堂场景
                     case CLOUDCLASS:
                         if (PLVLiveScene.isCloudClassSceneSupportType(channelType)) {
                             PLVLaunchResult launchResult = PLVLCCloudClassActivity.launchPlayback((Activity) mWXSDKInstance.getContext(),
                                     channelId, channelType, vid, null, viewerId, nickName, viewerAvatar, liveParam4, liveParam5,
-                                    vodType.equals("0") ? PLVPlaybackListType.PLAYBACK : PLVPlaybackListType.VOD
+                                    vodType.equals("0") ? PLVPlaybackListType.PLAYBACK : PLVPlaybackListType.VOD, langType
                             );
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
@@ -161,7 +163,7 @@ public class PolyvLiveScenesModule extends WXModule {
                         if (PLVLiveScene.isLiveEcommerceSceneSupportType(channelType)) {
                             PLVLaunchResult launchResult = PLVECLiveEcommerceActivity.launchPlayback((Activity) mWXSDKInstance.getContext(),
                                     channelId, vid, viewerId, nickName, viewerAvatar, liveParam4, liveParam5,
-                                    vodType.equals("0") ? PLVPlaybackListType.PLAYBACK : PLVPlaybackListType.VOD);
+                                    vodType.equals("0") ? PLVPlaybackListType.PLAYBACK : PLVPlaybackListType.VOD, langType);
                             if (launchResult.isSuccess()) {
                                 objectCallback(true, "登录成功", callback);
                             } else {

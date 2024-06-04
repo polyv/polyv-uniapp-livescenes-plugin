@@ -44,8 +44,8 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.1.46.android'
     implementation 'com.facebook.fresco:fresco:1.13.0'
 
-    //mediaplayer-full-1.0.0.aar 为私有化ijk，多场景生成插件时不应包括
-    compileOnly fileTree(dir: '../app/libs', include: ['mediaplayer-full-1.0.9.aar'])
+    // mediaplayer-full-1.1.5.aar 为私有化ijk，多场景生成插件时不应包括
+    compileOnly fileTree(dir: '../app/libs', include: ['mediaplayer-full-1.1.5.aar'])
 
     //TODO 2、 同步 PLVUniLiveScenesPlugin-android/app/build.gradle 中的依赖，
     // 改为compileOnly让依赖在模块内，只在编译时存在，打包不包含。package.json中应当重新配置依赖
@@ -63,22 +63,29 @@ dependencies {
     compileOnly ('com.squareup.retrofit2:converter-gson:2.6.0')
     compileOnly ('com.squareup.retrofit2:adapter-rxjava2:2.6.0')
     compileOnly ('com.squareup.okhttp3:logging-interceptor:4.5.0')
-    compileOnly ('io.reactivex.rxjava2:rxandroid:2.0.2')
+    compileOnly ('io.reactivex.rxjava2:rxandroid:2.1.1')
+    compileOnly ('io.reactivex.rxjava2:rxjava:2.2.8')
+    compileOnly ('org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.3.8')
     compileOnly ('com.jakewharton.rxrelay2:rxrelay:2.0.0')
     compileOnly ('com.google.code.findbugs:jsr305:2.0.1')
     compileOnly ('com.google.code.gson:gson:2.8.5')
-    compileOnly ('com.github.lzyzsd:jsbridge:1.0.4')
-    compileOnly ('com.aliyun.ams:alicloud-android-httpdns:2.0.1')
+//    compileOnly ('com.aliyun.ams:alicloud-android-httpdns:2.0.1')
     compileOnly ('com.aliyun.dpa:oss-android-sdk:2.9.3')
-    compileOnly ('com.tencent.bugly:crashreport:2.6.6.1')
+//    compileOnly ('com.tencent.bugly:crashreport:2.6.6.1')
     compileOnly ('de.hdodenhof:circleimageview:2.2.0')
     compileOnly ('io.socket:socket.io-client:1.0.0') {
         exclude group: 'org.json', module: 'json'
     }
 
     //LinkMic
-    compileOnly 'io.agora.rtc:full-sdk:2.9.0.107'
+    compileOnly 'io.agora.rtc:agora-special-full:3.7.2.8'
     //由于uniapp服务器云打包总是拉不下ucloudrtclib库，故将此包改为本地使用
 //    compileOnly 'cn.ucloud:ucloudrtclib:2.0.7'
-    compileOnly 'com.tencent.liteav:LiteAVSDK_TRTC:9.3.10768'
+    compileOnly 'com.tencent.liteav:LiteAVSDK_TRTC:11.0.0.13202'
+    // uniapp 支持自定义 仓储地址，只能本地添加
+    compileOnly("com.volcengine:VolcEngineRTC:3.41.301") {
+        exclude group: 'com.android.support'
+        exclude group: 'com.bytedance', module: 'libbytevc0enc'
+        exclude group: 'com.huawei.multimedia', module: 'audiokit'
+    }
 }
